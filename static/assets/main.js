@@ -3,7 +3,7 @@
   const $ = (s) => document.querySelector(s);
   const $$ = (s) => [...document.querySelectorAll(s)];
   const presets = {
-    sentence: 'Under the same sky,\nanother way to read.',
+    sentence: 'Form follows function.\nKnowledge travels further.',
     pangram: 'Sphinx of black quartz, judge my vow.',
     scholarly: 'ʾĕlōhīm · šāmayim · ḥayyīm\nṣedeq · ṭôḇ · ḫ · ṛ · ʿ',
     cyrillic: 'Слова соединяют\nвремена и культуры.'

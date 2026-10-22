@@ -34,6 +34,12 @@ mise run check
 Review the statistics and release text when changing font versions.
 The main Wheel of Heaven website's font selection is independent of this showcase.
 
+## Design direction
+
+The public story connects Jost’s 1920s German sans-serif roots with Bauhaus, New Typography, and New Objectivity.
+Its outlook on knowledge transmission is Firmament’s contemporary design position; the historical movements remain distinct and linked to sources.
+See [the script-expansion evaluation](docs/script-expansion.md) for the proposed Greek, Hebrew, Arabic, cuneiform, and CJK strategy.
+
 ## Cloudflare Pages
 
 - Git repository: `wheelofheaven/firmament.wheelofheaven.world`

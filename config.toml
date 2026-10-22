@@ -1,6 +1,6 @@
 base_url = "https://firmament.wheelofheaven.world"
 title = "Firmament Sans"
-description = "A scholarly extension of Jost. Explore four styles, 584 Unicode characters, and a growing vocabulary of diacritics. An open-source typeface by Wheel of Heaven."
+description = "A scholarly extension of Jost. The clarity of 1920s German design, renewed for shared knowledge and a future shaped by the principle that form follows function."
 compile_sass = true
 build_search_index = false
 generate_sitemap = true
