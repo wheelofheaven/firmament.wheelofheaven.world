@@ -1,0 +1,12 @@
+[tools]
+zola = "0.22.1"
+python = "3.13"
+
+[tasks.build]
+run = "zola build"
+
+[tasks.check]
+run = "zola check --skip-external-links && python3 scripts/check-site.py"
+
+[tasks.serve]
+run = "zola serve --interface 127.0.0.1 --port 18307"

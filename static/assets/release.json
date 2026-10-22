@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "codepoints": 584,
+  "added": 60,
+  "styles": 4,
+  "sha256": {
+    "FirmamentSans-Bold.ttf": "0153f0882b2ea8bf9c24a33d58173f9a485848d2c18f830429a6c5bbfafc7da6",
+    "FirmamentSans-Bold.woff2": "2af2fb405edd53bdbfbd70a5ea2667dbfc9a7da52ea11c6fcc888aab3f273f54",
+    "FirmamentSans-BoldItalic.ttf": "6e3591161702629ae8a50421ab764108b1998409121da00380dab973355bf9dc",
+    "FirmamentSans-BoldItalic.woff2": "b287840532a108aca578a1f0c0906100ac53b9e886364b1376e781a510c48190",
+    "FirmamentSans-Italic.ttf": "06e80c39f7ce6e20417335aa13131da77e409ee98b8c024bd00964ec7014a22e",
+    "FirmamentSans-Italic.woff2": "a8094a9204e56107acf7c84a23d0a1f0adf425fbf808fdfeb516ca335f6e576f",
+    "FirmamentSans-Regular.ttf": "c2f1828fb227ef48a3816d1a6bb06086b731bbd1e9ecf0c97b6855d3062e4f14",
+    "FirmamentSans-Regular.woff2": "484e8bb089bf2b667ccc723773e2c7391ffe97bed311c22bbd55c57f9d5ae787",
+    "OFL.txt": "0cb56e35b2a91bf64ecb235c0d7197e87b328f8586797047fa2c017679d59ae0",
+    "README.md": "5ca7f2a9cea89da2168ef20ecae1c9688756ee327a90f44dc1f3d4aba9c10281"
+  }
+}
