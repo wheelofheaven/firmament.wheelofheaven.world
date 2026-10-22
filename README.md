@@ -1,3 +1,14 @@
+<p align="center">
+  <a href="https://firmament.wheelofheaven.world/">
+    <img src="docs/images/brandmark.svg" width="80" alt="Firmament brandmark: an italic f with a rust-coloured dot">
+  </a>
+</p>
+<p align="center">
+  <a href="https://firmament.wheelofheaven.world/">
+    <img src="docs/images/brandtype.svg" width="720" alt="Firmament.">
+  </a>
+</p>
+
 # Firmament Sans — the showcase
 
 **Yesterday’s clarity. Tomorrow’s possibilities.**
@@ -7,7 +18,13 @@ It brings the clarity of 1920s German design into a typeface for shared knowledg
 
 [Visit the showcase](https://firmament.wheelofheaven.world/) · [Try the typeface](https://firmament.wheelofheaven.world/#typesetter) · [Read the story](https://firmament.wheelofheaven.world/#story) · [Download the family](https://firmament.wheelofheaven.world/downloads/FirmamentSans-0.1.zip)
 
-[![Firmament Sans: Yesterday’s clarity. Tomorrow’s possibilities.](static/assets/social.png)](https://firmament.wheelofheaven.world/)
+[![The Firmament showcase: Yesterday’s clarity. Tomorrow’s possibilities.](docs/images/showcase.jpg)](https://firmament.wheelofheaven.world/)
+
+| Set your own words | Explore the scholarly additions |
+| --- | --- |
+| [![Interactive typesetter showing Form follows function. Knowledge travels further.](docs/images/typesetter.jpg)](https://firmament.wheelofheaven.world/#typesetter) | [![Character explorer showing scholarly letters and h with a dot below](docs/images/characters.jpg)](https://firmament.wheelofheaven.world/#characters) |
+
+*Screenshots of the [live specimen](https://firmament.wheelofheaven.world/). [Artwork and capture notes](docs/images/README.md).*
 
 ## On the page
 
@@ -47,6 +64,10 @@ python scripts/render-social.py
 mise run build
 mise run check
 ```
+
+The README brandmark and wordmark are drawn from the bundled Firmament outlines.
+To regenerate them, also install uharfbuzz 0.52.0 and run `python scripts/render-brand.py`.
+See [the artwork and screenshot notes](docs/images/README.md) before refreshing the README images.
 
 Review the statistics and release text when changing font versions.
 The main Wheel of Heaven website's font selection is independent of this showcase.
