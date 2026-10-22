@@ -1,7 +1,24 @@
-# Firmament Sans specimen
+# Firmament Sans — the showcase
 
-The dedicated Zola showcase for [Firmament Sans](https://github.com/wheelofheaven/firmament-sans).
-Public address: <https://firmament.wheelofheaven.world>.
+**Yesterday’s clarity. Tomorrow’s possibilities.**
+
+The Zola home of [Firmament Sans](https://github.com/wheelofheaven/firmament-sans), a scholarly extension of Jost by Wheel of Heaven.
+It brings the clarity of 1920s German design into a typeface for shared knowledge and a future guided by form following function.
+
+[Visit the showcase](https://firmament.wheelofheaven.world/) · [Try the typeface](https://firmament.wheelofheaven.world/#typesetter) · [Read the story](https://firmament.wheelofheaven.world/#story) · [Download the family](https://firmament.wheelofheaven.world/downloads/FirmamentSans-0.1.zip)
+
+[![Firmament Sans: Yesterday’s clarity. Tomorrow’s possibilities.](static/assets/social.png)](https://firmament.wheelofheaven.world/)
+
+## On the page
+
+- An editable typesetter with four styles, size, tracking, leading, and background controls.
+- A searchable inventory generated from the actual font, including all 60 new scholarly characters.
+- Letterform anatomy, Jost comparisons, display and reading specimens, and multilingual proofs.
+- A design story connecting Bauhaus, New Typography, and New Objectivity with the transmission of knowledge.
+- TTF and WOFF2 downloads, the Open Font License, source links, and release limitations.
+
+Firmament 0.1 contains Latin and Cyrillic coverage plus scholarly Latin additions.
+Greek, Hebrew, Arabic, cuneiform, and CJK are evaluated in the [script study](docs/script-expansion.md); they are not newly included in this release.
 
 ## Development
 
@@ -38,7 +55,20 @@ The main Wheel of Heaven website's font selection is independent of this showcas
 
 The public story connects Jost’s 1920s German sans-serif roots with Bauhaus, New Typography, and New Objectivity.
 Its outlook on knowledge transmission is Firmament’s contemporary design position; the historical movements remain distinct and linked to sources.
+For us, form follows function means preserving the distinctions in a text and giving the next generation tools it can use and improve.
+The nod to [Wheel of Heaven](https://www.wheelofheaven.world/): our feet on the baseline and our eyes on the stars.
 See [the script-expansion evaluation](docs/script-expansion.md) for the proposed Greek, Hebrew, Arabic, cuneiform, and CJK strategy.
+
+## Project addresses
+
+| Purpose | Address |
+| --- | --- |
+| Public home and specimen | https://firmament.wheelofheaven.world/ |
+| Typeface source, builds, and coverage audit | https://github.com/wheelofheaven/firmament-sans |
+| Showcase source and script study | https://github.com/wheelofheaven/firmament.wheelofheaven.world |
+| Typeface feedback | https://github.com/wheelofheaven/firmament-sans/issues |
+| Showcase feedback | https://github.com/wheelofheaven/firmament.wheelofheaven.world/issues |
+| Parent project | https://www.wheelofheaven.world/ |
 
 ## Cloudflare Pages
 
