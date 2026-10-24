@@ -1,0 +1,5034 @@
+{
+ "generated": "2026-10-24",
+ "firmament": {
+  "400": {
+   "file": "FirmamentSans-Regular.ttf",
+   "sha256": "c2f1828fb227ef48a3816d1a6bb06086b731bbd1e9ecf0c97b6855d3062e4f14",
+   "upm": 1000,
+   "ascender": 1070,
+   "descender": -375,
+   "x_height": 460,
+   "cap_height": 700,
+   "o_top": 470,
+   "O_top": 710,
+   "l_top": 780,
+   "p_bottom": -220,
+   "stem": 80,
+   "cyrillic_stem": 80,
+   "density": {
+    "latin": {
+     "per_mille": 184.6,
+     "missing": 0,
+     "glyphs": 54
+    },
+    "cyrillic": {
+     "per_mille": 183.9,
+     "missing": 0,
+     "glyphs": 52
+    }
+   }
+  },
+  "700": {
+   "file": "FirmamentSans-Bold.ttf",
+   "sha256": "0153f0882b2ea8bf9c24a33d58173f9a485848d2c18f830429a6c5bbfafc7da6",
+   "upm": 1000,
+   "ascender": 1070,
+   "descender": -375,
+   "x_height": 460,
+   "cap_height": 700,
+   "o_top": 471,
+   "O_top": 716,
+   "l_top": 780,
+   "p_bottom": -220,
+   "stem": 152,
+   "cyrillic_stem": 146,
+   "density": {
+    "latin": {
+     "per_mille": 283.9,
+     "missing": 0,
+     "glyphs": 54
+    },
+    "cyrillic": {
+     "per_mille": 275.4,
+     "missing": 0,
+     "glyphs": 52
+    }
+   }
+  }
+ },
+ "contract": {
+  "upm": 1000,
+  "x_height": 460,
+  "cap_height": 700,
+  "ascender": 1070,
+  "descender": -375,
+  "stem": {
+   "400": 80,
+   "700": 152
+  },
+  "density": {
+   "400": 184.6,
+   "700": 283.9
+  },
+  "baseline_from_top": 848
+ },
+ "method": {
+  "stem": "Widest horizontal ink run on the scanline at a fixed fraction of the glyph’s own height, rasterised at 1000 px per em (FreeType via Pillow); probes: Latin l, Hebrew vav, Greek iota, Arabic alef, Han 丨, Hangul ㅣ.",
+  "density": "Filled outline area of the HarfBuzz-shaped sample divided by total advance × em, in ‰ of an em square. Marks count as ink; counters are subtracted.",
+  "heights": "Glyph bounding boxes from the outlines, scaled to 1000 units per em. Overshoot is included, so round letters read about ten units above the nominal line.",
+  "faces": "Variable fonts are instanced at wght 400 and 700 with fontTools; static families use their Regular and Bold files. Measurements come from the full instanced font; the served WOFF2 files are subsets.",
+  "subsets": "Hebrew, Greek and Arabic files keep their whole script blocks plus presentation forms and bidi controls; cuneiform and CJK files contain only the proof passages, so they are not production fonts."
+ },
+ "ranges": {
+  "hebrew": "U+0590-05FF, U+FB1D-FB4F, U+200C-200F, U+25CC",
+  "greek": "U+0370-03FF, U+1F00-1FFF, U+25CC",
+  "arabic": "U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF, U+200C-200F, U+25CC",
+  "cuneiform": "U+10380-1039F, U+12000-1254F",
+  "cjk": ""
+ },
+ "words": {
+  "hebrew": "אֱלֹהִים",
+  "greek": "ἀποκάλυψις",
+  "arabic": "الرُّوْحِ",
+  "cuneiform": "𒀭𒆠",
+  "ja": "エロヒム",
+  "ko": "엘로힘",
+  "zh": "厄罗音",
+  "zh-Hant": "厄羅音",
+  "ugaritic": "𐎛𐎍"
+ },
+ "passages": {
+  "genesis": [
+   {
+    "ref": "GEN-WOH-1:1",
+    "he": "בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃",
+    "en": "When the Elohim began to shape the skies and the land—",
+    "ja": "エロヒムが天と地を形づくり始めたとき—",
+    "ko": "엘로힘이 하늘과 땅을 빚기 시작했을 때—",
+    "zh": "当厄罗音开始塑造诸天与大地之时——",
+    "zh-Hant": "當厄羅音開始塑造諸天與大地之時—",
+    "ru": "Когда Элохим начали придавать форму небесам и земле—"
+   },
+   {
+    "ref": "GEN-WOH-1:3",
+    "he": "וַיֹּ֥אמֶר אֱלֹהִ֖ים יְהִ֣י א֑וֹר וַֽיְהִי־אֽוֹר׃",
+    "en": "The Elohim said, “Let there be light”; and there was light.",
+    "ja": "エロヒムは言った、「光あれ」。すると光があった。",
+    "ko": "엘로힘이 말하였다, \"빛이 있으라\"; 그러자 빛이 있었다.",
+    "zh": "厄罗音说：「要有光」；于是有了光。",
+    "zh-Hant": "厄羅音說：「要有光」；於是就有了光。",
+    "ru": "Элохим сказали: «Да будет свет»; и стал свет."
+   }
+  ],
+  "hebrew_prose": "אלוהים (עברית: אֱלֹהִים) הוא השם העברי בלשון רבים המשמש לאורך התורה כולה לדמויות המתורגמות באופן מקובל כ»אלוהים«.",
+  "labels": {
+   "he": [
+    "ויקי",
+    "ציר זמן",
+    "ספרייה",
+    "מאמרים",
+    "אודות",
+    "חיפוש",
+    "קראו עוד"
+   ],
+   "ja": [
+    "ウィキ",
+    "タイムライン",
+    "図書館",
+    "記事",
+    "私たちについて",
+    "検索",
+    "続きを読む"
+   ],
+   "ko": [
+    "위키",
+    "타임라인",
+    "도서관",
+    "기사",
+    "소개",
+    "검색",
+    "더 읽기"
+   ],
+   "zh": [
+    "百科",
+    "时间线",
+    "图书馆",
+    "文章",
+    "关于我们",
+    "搜索",
+    "阅读更多"
+   ],
+   "zh-Hant": [
+    "百科",
+    "時間線",
+    "圖書館",
+    "文章",
+    "關於我們",
+    "搜尋",
+    "閱讀更多"
+   ]
+  },
+  "matthew": {
+   "ref": "MAT-WOH-1:1",
+   "grc": "Βίβλος γενέσεως Ἰησοῦ χριστοῦ υἱοῦ Δαυὶδ υἱοῦ Ἀβραάμ.",
+   "en": "The book of the genealogy of Jesus Christ, son of David, son of Abraham."
+  },
+  "theogony": [
+   {
+    "ref": "THEO-1",
+    "grc": "Μουσάων Ἑλικωνιάδων ἀρχώμεθʼ ἀείδειν,",
+    "en": "From the Muses of Helikon let us begin to sing,"
+   },
+   {
+    "ref": "THEO-2",
+    "grc": "αἵθʼ Ἑλικῶνος ἔχουσιν ὄρος μέγα τε ζάθεόν τε",
+    "en": "who hold the great and holy mountain of Helikon,"
+   }
+  ],
+  "hidden_words": {
+   "ref": "HWA-1",
+   "ar": "﴿ يَا ابْنَ الرُّوْحِ ﴾ فِي أَوَّلِ القَوْلِ امْلِكْ قَلْبًا جَيِّدًا حَسَنًا مُنيرًا لِتَمْلِكَ مُلْكًا دائِمًا باقِيًا أَزَلًا قَدِيمًا.",
+   "rasm": "يا ابن الروح في أول القول املك قلبا جيدا حسنا منيرا لتملك ملكا دائما باقيا أزلا قديما",
+   "en": "O Son of the Spirit! First of all sayings: possess a heart that is good, comely, and luminous, that thou mayest possess a dominion enduring, everlasting, from all eternity, ancient."
+  },
+  "enki": {
+   "ref": "ENH-WOH-1:1",
+   "cun": "𒆬𒆬𒂵𒀀𒀭 𒂊𒉈 𒁀𒀀𒀭𒈨𒂗𒍢𒂗 𒆳 𒆬𒂵𒀀𒀭",
+   "translit": "iri^ki kug-kug-ga-am3 e-ne ba-am3-me-en-ze2-en kur dilmun^ki kug-ga-am3",
+   "en": "The city is pure — those who are you — the land of Dilmun is pure."
+  },
+  "baal": {
+   "ref": "BCY-WOH-1.1-ii:1",
+   "uga": "[𐎈𐎌𐎋𐎟𐎓𐎕𐎋𐎟𐎓𐎁𐎕𐎋𐎟𐎓]𐎎𐎊𐎟𐎔𐎓𐎐𐎋",
+   "translit": "[ḥšk . ʿṣk . ʿbṣk . ʿ]my . pʿnk",
+   "en": "[Hasten, urge, speed to] me, your feet —"
+  },
+  "inline": {
+   "elohim": "Elohim (Hebrew: אֱלֹהִים) is the plural Hebrew name used throughout the Torah for the figures conventionally translated as God.",
+   "apocalypse": "Apocalypse (Greek: ἀποκάλυψις, apokalypsis, ‘uncovering, unveiling, revelation’) is, in its plain Greek meaning, the disclosure of what has been concealed."
+  },
+  "cuneiform_signs": "𒀭 𒆠 𒈗 𒂗 𒆤 𒀀 𒉡 𒁹 𒌋 𒐕",
+  "ugaritic_alphabet": "𐎀𐎁𐎂𐎃𐎄𐎅𐎆𐎇𐎈𐎉𐎊𐎋𐎌𐎍𐎎𐎏𐎐𐎑𐎒𐎓𐎔𐎕𐎖𐎗𐎘𐎙𐎚𐎛𐎜𐎝𐎟"
+ },
+ "scripts": [
+  {
+   "key": "hebrew",
+   "title": "Hebrew",
+   "native": "עברית",
+   "dir": "rtl",
+   "lang": "he",
+   "target": {
+    "letter": 580,
+    "note": "midpoint of the Latin x-height and cap height"
+   },
+   "candidates": [
+    {
+     "key": "miriam-libre",
+     "name": "Miriam Libre",
+     "credit": "Michal Sahar",
+     "designer": "Michal Sahar",
+     "origin": "Revival of Raphael Frank’s monolinear Miriam, drawn in Germany in the early twentieth century; Latin drawn to match.",
+     "lang": "he",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/miriamlibre",
+      "files": {
+       "MiriamLibre[wght].ttf": "9ea850118d552d25e1fb8242cbd429a5801c691b6ce218458e1a039045114bb8"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "MiriamLibre[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/miriam-libre/miriam-libre-400.woff2",
+       "bytes": 5080,
+       "sha256": "3df18f51f9be7a30f676d4bd388f47f6b6b7950f28eb478e0b8a37c86050983f",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 82
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 969,
+        "descender": -344,
+        "typo_ascender": 969,
+        "typo_descender": -344,
+        "use_typo_metrics": true,
+        "x_height": 566,
+        "cap_height": 695,
+        "glyphs": 476,
+        "codepoints": 446,
+        "heights": {
+         "letter": {
+          "ymin": 0,
+          "ymax": 579,
+          "width": 455
+         },
+         "ascender": {
+          "ymin": 0,
+          "ymax": 729,
+          "width": 399
+         },
+         "descender": {
+          "ymin": -145,
+          "ymax": 579,
+          "width": 463
+         }
+        },
+        "density": {
+         "pointed": {
+          "per_mille": 199.0,
+          "missing": 8,
+          "glyphs": 65
+         },
+         "plain": {
+          "per_mille": 163.4,
+          "missing": 0,
+          "glyphs": 113
+         },
+         "latin": {
+          "per_mille": 179.8,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "letters": {
+          "present": 27,
+          "of": 27
+         },
+         "points": {
+          "present": 16,
+          "of": 18
+         },
+         "cantillation": {
+          "present": 0,
+          "of": 31
+         },
+         "presentation": {
+          "present": 29,
+          "of": 51
+         }
+        },
+        "stem": 78,
+        "latin_stem": 78,
+        "latin_x": 579,
+        "latin_cap": 708,
+        "features": [
+         "aalt",
+         "c2sc",
+         "ccmp",
+         "frac",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "mkmk",
+         "ordn",
+         "pnum",
+         "smcp",
+         "ss01",
+         "sups",
+         "tnum"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "MiriamLibre[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/miriam-libre/miriam-libre-700.woff2",
+       "bytes": 3920,
+       "sha256": "1f457ce91e6f1cb1727b3947ecb94cf3374e24dceff38c3530ce1296154f7d9a",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 82
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 969,
+        "descender": -344,
+        "typo_ascender": 969,
+        "typo_descender": -344,
+        "use_typo_metrics": true,
+        "x_height": 566,
+        "cap_height": 695,
+        "glyphs": 476,
+        "codepoints": 446,
+        "heights": {
+         "letter": {
+          "ymin": 0,
+          "ymax": 587,
+          "width": 483
+         },
+         "ascender": {
+          "ymin": 0,
+          "ymax": 736,
+          "width": 432
+         },
+         "descender": {
+          "ymin": -145,
+          "ymax": 586,
+          "width": 495
+         }
+        },
+        "density": {
+         "pointed": {
+          "per_mille": 263.6,
+          "missing": 8,
+          "glyphs": 65
+         },
+         "plain": {
+          "per_mille": 239.5,
+          "missing": 0,
+          "glyphs": 113
+         },
+         "latin": {
+          "per_mille": 260.1,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "letters": {
+          "present": 27,
+          "of": 27
+         },
+         "points": {
+          "present": 16,
+          "of": 18
+         },
+         "cantillation": {
+          "present": 0,
+          "of": 31
+         },
+         "presentation": {
+          "present": 29,
+          "of": 51
+         }
+        },
+        "stem": 120,
+        "latin_stem": 120,
+        "latin_x": 586,
+        "latin_cap": 728,
+        "features": [
+         "aalt",
+         "c2sc",
+         "ccmp",
+         "frac",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "mkmk",
+         "ordn",
+         "pnum",
+         "smcp",
+         "ss01",
+         "sups",
+         "tnum"
+        ]
+       }
+      }
+     ],
+     "version": "2.000"
+    },
+    {
+     "key": "noto-sans-hebrew",
+     "name": "Noto Sans Hebrew",
+     "credit": "Google / Noto",
+     "designer": "Google",
+     "origin": "Neutral grotesque with full point and cantillation coverage.",
+     "lang": "he",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/notosanshebrew",
+      "files": {
+       "NotoSansHebrew[wdth,wght].ttf": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "NotoSansHebrew[wdth,wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-sans-hebrew/noto-sans-hebrew-400.woff2",
+       "bytes": 6412,
+       "sha256": "2baac20a4e9499bcc5631d3dc212571ade2857c7a4048db9a2de150971730fcd",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 145
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1068,
+        "descender": -292,
+        "typo_ascender": 1068,
+        "typo_descender": -292,
+        "use_typo_metrics": true,
+        "x_height": 536,
+        "cap_height": 714,
+        "glyphs": 470,
+        "codepoints": 464,
+        "heights": {
+         "letter": {
+          "ymin": 0,
+          "ymax": 593,
+          "width": 494
+         },
+         "ascender": {
+          "ymin": 0,
+          "ymax": 760,
+          "width": 453
+         },
+         "descender": {
+          "ymin": -191,
+          "ymax": 593,
+          "width": 529
+         }
+        },
+        "density": {
+         "pointed": {
+          "per_mille": 189.4,
+          "missing": 0,
+          "glyphs": 65
+         },
+         "plain": {
+          "per_mille": 180.2,
+          "missing": 0,
+          "glyphs": 113
+         },
+         "latin": {
+          "per_mille": 186.0,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "letters": {
+          "present": 27,
+          "of": 27
+         },
+         "points": {
+          "present": 18,
+          "of": 18
+         },
+         "cantillation": {
+          "present": 31,
+          "of": 31
+         },
+         "presentation": {
+          "present": 46,
+          "of": 51
+         }
+        },
+        "stem": 92,
+        "latin_stem": 88,
+        "latin_x": 547,
+        "latin_cap": 725,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "kern",
+         "locl",
+         "mark",
+         "mkmk",
+         "ordn"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "NotoSansHebrew[wdth,wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-sans-hebrew/noto-sans-hebrew-700.woff2",
+       "bytes": 6428,
+       "sha256": "f39c2e87987d570cc4c23321ffadb27f2add929c5ec760f2df90fdb367766ebd",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 145
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1068,
+        "descender": -292,
+        "typo_ascender": 1068,
+        "typo_descender": -292,
+        "use_typo_metrics": true,
+        "x_height": 536,
+        "cap_height": 714,
+        "glyphs": 470,
+        "codepoints": 464,
+        "heights": {
+         "letter": {
+          "ymin": 0,
+          "ymax": 603,
+          "width": 539
+         },
+         "ascender": {
+          "ymin": 0,
+          "ymax": 760,
+          "width": 501
+         },
+         "descender": {
+          "ymin": -184,
+          "ymax": 603,
+          "width": 582
+         }
+        },
+        "density": {
+         "pointed": {
+          "per_mille": 291.5,
+          "missing": 0,
+          "glyphs": 65
+         },
+         "plain": {
+          "per_mille": 278.6,
+          "missing": 0,
+          "glyphs": 113
+         },
+         "latin": {
+          "per_mille": 283.3,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "letters": {
+          "present": 27,
+          "of": 27
+         },
+         "points": {
+          "present": 18,
+          "of": 18
+         },
+         "cantillation": {
+          "present": 31,
+          "of": 31
+         },
+         "presentation": {
+          "present": 46,
+          "of": 51
+         }
+        },
+        "stem": 152,
+        "latin_stem": 150,
+        "latin_x": 557,
+        "latin_cap": 725,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "kern",
+         "locl",
+         "mark",
+         "mkmk",
+         "ordn"
+        ]
+       }
+      }
+     ],
+     "version": "3.001"
+    },
+    {
+     "key": "ibm-plex-sans-hebrew",
+     "name": "IBM Plex Sans Hebrew",
+     "credit": "Mike Abbink, Bold Monday",
+     "designer": "Mike Abbink, Bold Monday",
+     "origin": "Grotesque companion to IBM Plex, the family already used for the site’s citation serif and Korean display face.",
+     "lang": "he",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/ibmplexsanshebrew",
+      "files": {
+       "IBMPlexSansHebrew-Regular.ttf": "c11df42adf5e2c6e77e623dbedbe8cc23ba72196ac9ad8beb02754eebd9c400a",
+       "IBMPlexSansHebrew-Bold.ttf": "4468a526f606ac74e8db9125b785a932cf55a265f8e358855371bed6126a1637"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "IBMPlexSansHebrew-Regular.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/ibm-plex-sans-hebrew/ibm-plex-sans-hebrew-400.woff2",
+       "bytes": 3672,
+       "sha256": "882a1d084b6ac55b20da355d334f1fcab04035bbfe29e882ff8d45c37fb63a5f",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 94
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1025,
+        "descender": -275,
+        "typo_ascender": 1025,
+        "typo_descender": -275,
+        "use_typo_metrics": true,
+        "x_height": 516,
+        "cap_height": 698,
+        "glyphs": 482,
+        "codepoints": 437,
+        "heights": {
+         "letter": {
+          "ymin": 0,
+          "ymax": 606,
+          "width": 478
+         },
+         "ascender": {
+          "ymin": 0,
+          "ymax": 740,
+          "width": 427
+         },
+         "descender": {
+          "ymin": -200,
+          "ymax": 606,
+          "width": 497
+         }
+        },
+        "density": {
+         "pointed": {
+          "per_mille": 198.4,
+          "missing": 8,
+          "glyphs": 58
+         },
+         "plain": {
+          "per_mille": 165.7,
+          "missing": 0,
+          "glyphs": 112
+         },
+         "latin": {
+          "per_mille": 180.1,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "letters": {
+          "present": 27,
+          "of": 27
+         },
+         "points": {
+          "present": 16,
+          "of": 18
+         },
+         "cantillation": {
+          "present": 0,
+          "of": 31
+         },
+         "presentation": {
+          "present": 35,
+          "of": 51
+         }
+        },
+        "stem": 82,
+        "latin_stem": 80,
+        "latin_x": 528,
+        "latin_cap": 710,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "dnom",
+         "frac",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "numr",
+         "ordn",
+         "salt",
+         "sinf",
+         "ss01",
+         "ss02",
+         "ss03",
+         "ss04",
+         "ss05",
+         "subs",
+         "sups",
+         "zero"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "IBMPlexSansHebrew-Bold.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/ibm-plex-sans-hebrew/ibm-plex-sans-hebrew-700.woff2",
+       "bytes": 3708,
+       "sha256": "8569fb363d699713b9bff74527920db69b89bd05fa4740c4145743747ee93e13",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 94
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1025,
+        "descender": -275,
+        "typo_ascender": 1025,
+        "typo_descender": -275,
+        "use_typo_metrics": true,
+        "x_height": 525,
+        "cap_height": 698,
+        "glyphs": 482,
+        "codepoints": 437,
+        "heights": {
+         "letter": {
+          "ymin": 0,
+          "ymax": 610,
+          "width": 510
+         },
+         "ascender": {
+          "ymin": 0,
+          "ymax": 740,
+          "width": 474
+         },
+         "descender": {
+          "ymin": -200,
+          "ymax": 610,
+          "width": 545
+         }
+        },
+        "density": {
+         "pointed": {
+          "per_mille": 321.1,
+          "missing": 8,
+          "glyphs": 58
+         },
+         "plain": {
+          "per_mille": 280.3,
+          "missing": 0,
+          "glyphs": 112
+         },
+         "latin": {
+          "per_mille": 290.8,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "letters": {
+          "present": 27,
+          "of": 27
+         },
+         "points": {
+          "present": 16,
+          "of": 18
+         },
+         "cantillation": {
+          "present": 0,
+          "of": 31
+         },
+         "presentation": {
+          "present": 35,
+          "of": 51
+         }
+        },
+        "stem": 150,
+        "latin_stem": 148,
+        "latin_x": 537,
+        "latin_cap": 710,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "dnom",
+         "frac",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "numr",
+         "ordn",
+         "salt",
+         "sinf",
+         "ss01",
+         "ss02",
+         "ss03",
+         "ss04",
+         "ss05",
+         "subs",
+         "sups",
+         "zero"
+        ]
+       }
+      }
+     ],
+     "version": "1.2"
+    },
+    {
+     "key": "heebo",
+     "name": "Heebo",
+     "credit": "Oded Ezer",
+     "designer": "Oded Ezer",
+     "origin": "Hebrew companion to Roboto.",
+     "lang": "he",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/heebo",
+      "files": {
+       "Heebo[wght].ttf": "18f930b583fa8fe6b40b2f8263b7ac6afbac07adc91a12467874e7467d3ace30"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "Heebo[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/heebo/heebo-400.woff2",
+       "bytes": 4780,
+       "sha256": "7587e7d7a75758cc3946cbc665ba7034d2dae7e28fdfc37abd90a72eb9e58a30",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 108
+       },
+       "metrics": {
+        "upm": 2048,
+        "weight_class": 400,
+        "ascender": 1048,
+        "descender": -421,
+        "typo_ascender": 1048,
+        "typo_descender": -421,
+        "use_typo_metrics": true,
+        "x_height": 528,
+        "cap_height": 711,
+        "glyphs": 591,
+        "codepoints": 463,
+        "heights": {
+         "letter": {
+          "ymin": 0,
+          "ymax": 575,
+          "width": 473
+         },
+         "ascender": {
+          "ymin": 0,
+          "ymax": 750,
+          "width": 437
+         },
+         "descender": {
+          "ymin": -203,
+          "ymax": 575,
+          "width": 446
+         }
+        },
+        "density": {
+         "pointed": {
+          "per_mille": 213.6,
+          "missing": 8,
+          "glyphs": 65
+         },
+         "plain": {
+          "per_mille": 172.9,
+          "missing": 0,
+          "glyphs": 113
+         },
+         "latin": {
+          "per_mille": 214.0,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "letters": {
+          "present": 27,
+          "of": 27
+         },
+         "points": {
+          "present": 17,
+          "of": 18
+         },
+         "cantillation": {
+          "present": 0,
+          "of": 31
+         },
+         "presentation": {
+          "present": 45,
+          "of": 51
+         }
+        },
+        "stem": 91,
+        "latin_stem": 91,
+        "latin_x": 538,
+        "latin_cap": 721,
+        "features": [
+         "aalt",
+         "c2sc",
+         "case",
+         "ccmp",
+         "dlig",
+         "frac",
+         "hlig",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "mkmk",
+         "ordn",
+         "sinf",
+         "smcp",
+         "ss06",
+         "ss07",
+         "subs",
+         "sups"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "Heebo[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/heebo/heebo-700.woff2",
+       "bytes": 4788,
+       "sha256": "5c00e116c590ca321d36c0e309e0fa8e3aedf7cea75e3fc7265c3d6ef0cdd890",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 108
+       },
+       "metrics": {
+        "upm": 2048,
+        "weight_class": 700,
+        "ascender": 1048,
+        "descender": -421,
+        "typo_ascender": 1048,
+        "typo_descender": -421,
+        "use_typo_metrics": true,
+        "x_height": 528,
+        "cap_height": 711,
+        "glyphs": 591,
+        "codepoints": 463,
+        "heights": {
+         "letter": {
+          "ymin": 0,
+          "ymax": 584,
+          "width": 501
+         },
+         "ascender": {
+          "ymin": 0,
+          "ymax": 750,
+          "width": 475
+         },
+         "descender": {
+          "ymin": -203,
+          "ymax": 584,
+          "width": 489
+         }
+        },
+        "density": {
+         "pointed": {
+          "per_mille": 315.4,
+          "missing": 8,
+          "glyphs": 65
+         },
+         "plain": {
+          "per_mille": 259.9,
+          "missing": 0,
+          "glyphs": 113
+         },
+         "latin": {
+          "per_mille": 309.0,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "letters": {
+          "present": 27,
+          "of": 27
+         },
+         "points": {
+          "present": 17,
+          "of": 18
+         },
+         "cantillation": {
+          "present": 0,
+          "of": 31
+         },
+         "presentation": {
+          "present": 45,
+          "of": 51
+         }
+        },
+        "stem": 147,
+        "latin_stem": 142,
+        "latin_x": 538,
+        "latin_cap": 721,
+        "features": [
+         "aalt",
+         "c2sc",
+         "case",
+         "ccmp",
+         "dlig",
+         "frac",
+         "hlig",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "mkmk",
+         "ordn",
+         "sinf",
+         "smcp",
+         "ss06",
+         "ss07",
+         "subs",
+         "sups"
+        ]
+       }
+      }
+     ],
+     "version": "3.100"
+    },
+    {
+     "key": "assistant",
+     "name": "Assistant",
+     "credit": "Ben Nathan, Adobe",
+     "designer": "Adobe Systems Inc., Ben Nathan",
+     "origin": "Hebrew companion to Source Sans.",
+     "lang": "he",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/assistant",
+      "files": {
+       "Assistant[wght].ttf": "1c3b393884f8fb133a1b17f41d26178adae1050a4f86d7a429d1b5658c314fa3"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "Assistant[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/assistant/assistant-400.woff2",
+       "bytes": 3924,
+       "sha256": "b7c186f5bfacb1faaa5b69b654fc95197996bb38b84e364a22741654f239b997",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 89
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1021,
+        "descender": -287,
+        "typo_ascender": 1021,
+        "typo_descender": -287,
+        "use_typo_metrics": false,
+        "x_height": 500,
+        "cap_height": 750,
+        "glyphs": 547,
+        "codepoints": 431,
+        "heights": {
+         "letter": {
+          "ymin": 0,
+          "ymax": 555,
+          "width": 436
+         },
+         "ascender": {
+          "ymin": 0,
+          "ymax": 717,
+          "width": 387
+         },
+         "descender": {
+          "ymin": -200,
+          "ymax": 555,
+          "width": 442
+         }
+        },
+        "density": {
+         "pointed": {
+          "per_mille": 189.1,
+          "missing": 7,
+          "glyphs": 65
+         },
+         "plain": {
+          "per_mille": 154.5,
+          "missing": 0,
+          "glyphs": 113
+         },
+         "latin": {
+          "per_mille": 162.3,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "letters": {
+          "present": 27,
+          "of": 27
+         },
+         "points": {
+          "present": 17,
+          "of": 18
+         },
+         "cantillation": {
+          "present": 0,
+          "of": 31
+         },
+         "presentation": {
+          "present": 29,
+          "of": 51
+         }
+        },
+        "stem": 77,
+        "latin_stem": 72,
+        "latin_x": 497,
+        "latin_cap": 669,
+        "features": [
+         "aalt",
+         "ccmp",
+         "frac",
+         "kern",
+         "liga",
+         "mark",
+         "mkmk",
+         "ordn",
+         "sups"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "Assistant[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/assistant/assistant-700.woff2",
+       "bytes": 3924,
+       "sha256": "856528c9ea7c9457050bc693a998f1b33d49939d3e5a4a709921d862ac4d2836",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 89
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1021,
+        "descender": -287,
+        "typo_ascender": 1021,
+        "typo_descender": -287,
+        "use_typo_metrics": false,
+        "x_height": 500,
+        "cap_height": 750,
+        "glyphs": 547,
+        "codepoints": 431,
+        "heights": {
+         "letter": {
+          "ymin": 0,
+          "ymax": 571,
+          "width": 475
+         },
+         "ascender": {
+          "ymin": 0,
+          "ymax": 717,
+          "width": 435
+         },
+         "descender": {
+          "ymin": -200,
+          "ymax": 571,
+          "width": 511
+         }
+        },
+        "density": {
+         "pointed": {
+          "per_mille": 304.0,
+          "missing": 7,
+          "glyphs": 65
+         },
+         "plain": {
+          "per_mille": 269.4,
+          "missing": 0,
+          "glyphs": 113
+         },
+         "latin": {
+          "per_mille": 268.7,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "letters": {
+          "present": 27,
+          "of": 27
+         },
+         "points": {
+          "present": 17,
+          "of": 18
+         },
+         "cantillation": {
+          "present": 0,
+          "of": 31
+         },
+         "presentation": {
+          "present": 29,
+          "of": 51
+         }
+        },
+        "stem": 144,
+        "latin_stem": 136,
+        "latin_x": 507,
+        "latin_cap": 665,
+        "features": [
+         "aalt",
+         "ccmp",
+         "frac",
+         "kern",
+         "liga",
+         "mark",
+         "mkmk",
+         "ordn",
+         "sups"
+        ]
+       }
+      }
+     ],
+     "version": "3.000"
+    },
+    {
+     "key": "alef",
+     "name": "Alef",
+     "credit": "Hagilda, Mushon Zer-Aviv",
+     "designer": "Hagilda, Mushon Zer-Aviv",
+     "origin": "Humanist Hebrew sans, two static weights.",
+     "lang": "he",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/alef",
+      "files": {
+       "Alef-Regular.ttf": "a32adcc953ac356906901778460083dc207d4560cb586fd9ea24ec5b186969ed",
+       "Alef-Bold.ttf": "5dae0d7b2365288d8a34f5fb033d4278be96cef2547862cb93ceb8373e10bcf1"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "Alef-Regular.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/alef/alef-400.woff2",
+       "bytes": 4364,
+       "sha256": "7f6a0e3c2c95e320174f5ae099f83be879e412979a495262b6648e2b1b3e151d",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 83
+       },
+       "metrics": {
+        "upm": 2048,
+        "weight_class": 400,
+        "ascender": 1009,
+        "descender": -353,
+        "typo_ascender": 800,
+        "typo_descender": -200,
+        "use_typo_metrics": false,
+        "x_height": 508,
+        "cap_height": 702,
+        "glyphs": 424,
+        "codepoints": 423,
+        "heights": {
+         "letter": {
+          "ymin": 0,
+          "ymax": 525,
+          "width": 462
+         },
+         "ascender": {
+          "ymin": -20,
+          "ymax": 646,
+          "width": 378
+         },
+         "descender": {
+          "ymin": -154,
+          "ymax": 525,
+          "width": 434
+         }
+        },
+        "density": {
+         "pointed": {
+          "per_mille": 168.7,
+          "missing": 7,
+          "glyphs": 59
+         },
+         "plain": {
+          "per_mille": 151.6,
+          "missing": 0,
+          "glyphs": 113
+         },
+         "latin": {
+          "per_mille": 182.9,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "letters": {
+          "present": 27,
+          "of": 27
+         },
+         "points": {
+          "present": 16,
+          "of": 18
+         },
+         "cantillation": {
+          "present": 0,
+          "of": 31
+         },
+         "presentation": {
+          "present": 29,
+          "of": 51
+         }
+        },
+        "stem": 84,
+        "latin_stem": 84,
+        "latin_x": 519,
+        "latin_cap": 713,
+        "features": [
+         "ccmp",
+         "liga",
+         "mark",
+         "zz01",
+         "zz02",
+         "zz03",
+         "zz04",
+         "zz05",
+         "zz06",
+         "zz07",
+         "zz08",
+         "zz09"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "Alef-Bold.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/alef/alef-700.woff2",
+       "bytes": 4364,
+       "sha256": "afad4e3f24994972dc56f415a5ee10f1835ca66d7fb7fc5175da872b91ac3f41",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 83
+       },
+       "metrics": {
+        "upm": 2048,
+        "weight_class": 700,
+        "ascender": 1009,
+        "descender": -353,
+        "typo_ascender": 800,
+        "typo_descender": -200,
+        "use_typo_metrics": false,
+        "x_height": 508,
+        "cap_height": 702,
+        "glyphs": 424,
+        "codepoints": 423,
+        "heights": {
+         "letter": {
+          "ymin": 0,
+          "ymax": 528,
+          "width": 506
+         },
+         "ascender": {
+          "ymin": -27,
+          "ymax": 650,
+          "width": 422
+         },
+         "descender": {
+          "ymin": -154,
+          "ymax": 528,
+          "width": 491
+         }
+        },
+        "density": {
+         "pointed": {
+          "per_mille": 221.4,
+          "missing": 7,
+          "glyphs": 59
+         },
+         "plain": {
+          "per_mille": 212.5,
+          "missing": 0,
+          "glyphs": 113
+         },
+         "latin": {
+          "per_mille": 246.5,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "letters": {
+          "present": 27,
+          "of": 27
+         },
+         "points": {
+          "present": 16,
+          "of": 18
+         },
+         "cantillation": {
+          "present": 0,
+          "of": 31
+         },
+         "presentation": {
+          "present": 29,
+          "of": 51
+         }
+        },
+        "stem": 133,
+        "latin_stem": 134,
+        "latin_x": 519,
+        "latin_cap": 713,
+        "features": [
+         "ccmp",
+         "liga",
+         "mark",
+         "zz01",
+         "zz02",
+         "zz03",
+         "zz04",
+         "zz05",
+         "zz06",
+         "zz07",
+         "zz08",
+         "zz09"
+        ]
+       }
+      }
+     ],
+     "version": "1.002;PS 001.002;hotconv 1.0.56;makeotf.lib2.0.21325"
+    },
+    {
+     "key": "rubik",
+     "name": "Rubik",
+     "credit": "Hubert & Fischer, Meir Sadan, Cyreal",
+     "designer": "Hubert and Fischer, Meir Sadan, Cyreal, Daniel Grumer, Omaima Dajani",
+     "origin": "Geometric sans with rounded corners.",
+     "lang": "he",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/rubik",
+      "files": {
+       "Rubik[wght].ttf": "1b3a7437ba2af80e465e773ed60c5036d1ba6ace492d89046dbcf18fb31e4e88"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "Rubik[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/rubik/rubik-400.woff2",
+       "bytes": 4608,
+       "sha256": "34f9c0ab01d48774b106cb74ccf8199b73b29599db4caafa26db57f19fbd9af2",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 83
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 935,
+        "descender": -250,
+        "typo_ascender": 935,
+        "typo_descender": -250,
+        "use_typo_metrics": true,
+        "x_height": 520,
+        "cap_height": 700,
+        "glyphs": 1174,
+        "codepoints": 885,
+        "heights": {
+         "letter": {
+          "ymin": 0,
+          "ymax": 571,
+          "width": 463
+         },
+         "ascender": {
+          "ymin": -10,
+          "ymax": 710,
+          "width": 410
+         },
+         "descender": {
+          "ymin": -191,
+          "ymax": 571,
+          "width": 485
+         }
+        },
+        "density": {
+         "pointed": {
+          "per_mille": 224.0,
+          "missing": 8,
+          "glyphs": 65
+         },
+         "plain": {
+          "per_mille": 180.4,
+          "missing": 0,
+          "glyphs": 113
+         },
+         "latin": {
+          "per_mille": 204.7,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "letters": {
+          "present": 27,
+          "of": 27
+         },
+         "points": {
+          "present": 16,
+          "of": 18
+         },
+         "cantillation": {
+          "present": 0,
+          "of": 31
+         },
+         "presentation": {
+          "present": 29,
+          "of": 51
+         }
+        },
+        "stem": 93,
+        "latin_stem": 93,
+        "latin_x": 530,
+        "latin_cap": 710,
+        "features": [
+         "aalt",
+         "case",
+         "ccmp",
+         "dlig",
+         "dnom",
+         "fina",
+         "frac",
+         "init",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "medi",
+         "mkmk",
+         "numr",
+         "ordn",
+         "pnum",
+         "rlig",
+         "sinf",
+         "subs",
+         "sups",
+         "tnum",
+         "zero"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "Rubik[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/rubik/rubik-700.woff2",
+       "bytes": 4680,
+       "sha256": "48e5de8e43d3723e62a6d94f4e32ff34f6f822cdc59568b17f33784eeffc4ebe",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 83
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 935,
+        "descender": -250,
+        "typo_ascender": 935,
+        "typo_descender": -250,
+        "use_typo_metrics": true,
+        "x_height": 520,
+        "cap_height": 700,
+        "glyphs": 1174,
+        "codepoints": 885,
+        "heights": {
+         "letter": {
+          "ymin": 0,
+          "ymax": 571,
+          "width": 507
+         },
+         "ascender": {
+          "ymin": -13,
+          "ymax": 710,
+          "width": 459
+         },
+         "descender": {
+          "ymin": -191,
+          "ymax": 571,
+          "width": 563
+         }
+        },
+        "density": {
+         "pointed": {
+          "per_mille": 305.7,
+          "missing": 8,
+          "glyphs": 65
+         },
+         "plain": {
+          "per_mille": 286.5,
+          "missing": 0,
+          "glyphs": 113
+         },
+         "latin": {
+          "per_mille": 317.3,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "letters": {
+          "present": 27,
+          "of": 27
+         },
+         "points": {
+          "present": 16,
+          "of": 18
+         },
+         "cantillation": {
+          "present": 0,
+          "of": 31
+         },
+         "presentation": {
+          "present": 29,
+          "of": 51
+         }
+        },
+        "stem": 168,
+        "latin_stem": 168,
+        "latin_x": 530,
+        "latin_cap": 710,
+        "features": [
+         "aalt",
+         "case",
+         "ccmp",
+         "dlig",
+         "dnom",
+         "fina",
+         "frac",
+         "init",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "medi",
+         "mkmk",
+         "numr",
+         "ordn",
+         "pnum",
+         "rlig",
+         "rvrn",
+         "sinf",
+         "subs",
+         "sups",
+         "tnum",
+         "zero"
+        ]
+       }
+      }
+     ],
+     "version": "2.300;gftools[0.9.30]"
+    }
+   ]
+  },
+  {
+   "key": "greek",
+   "title": "Greek",
+   "native": "Ελληνικά",
+   "dir": "ltr",
+   "lang": "grc",
+   "target": {
+    "x": 460,
+    "cap": 700
+   },
+   "candidates": [
+    {
+     "key": "gfs-neohellenic",
+     "name": "GFS Neohellenic",
+     "credit": "Greek Font Society",
+     "designer": "Greek Font Society",
+     "origin": "Digitisation of Victor Scholderer’s New Hellenic, cut by Monotype in 1927: round, nearly monolinear, with polytonic coverage.",
+     "lang": "grc",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/gfsneohellenic",
+      "files": {
+       "GFSNeohellenic.ttf": "14d54dd7f36fdd7140d3f6357c99a8ead988a808b298471e02ba2c0992aa110d",
+       "GFSNeohellenicBold.ttf": "b1a3900f5f3327ab79d18c762fca17e46c0db37a32fbf34f7dca41458bd46f53"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "GFSNeohellenic.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/gfs-neohellenic/gfs-neohellenic-400.woff2",
+       "bytes": 12088,
+       "sha256": "f271188b2cf995532a1322fca8838260d4ba7531da5ad3276cbe945e9de2e0c2",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 348
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 873,
+        "descender": -245,
+        "typo_ascender": 600,
+        "typo_descender": -222,
+        "use_typo_metrics": false,
+        "x_height": 387,
+        "cap_height": 623,
+        "glyphs": 1142,
+        "codepoints": 1104,
+        "heights": {
+         "x": {
+          "ymin": -8,
+          "ymax": 394,
+          "width": 405
+         },
+         "cap": {
+          "ymin": -10,
+          "ymax": 634,
+          "width": 582
+         },
+         "descender": {
+          "ymin": -180,
+          "ymax": 394,
+          "width": 386
+         }
+        },
+        "density": {
+         "polytonic": {
+          "per_mille": 137.3,
+          "missing": 1,
+          "glyphs": 37
+         },
+         "koine": {
+          "per_mille": 130.3,
+          "missing": 0,
+          "glyphs": 53
+         },
+         "latin": {
+          "per_mille": 126.6,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "greek": {
+          "present": 80,
+          "of": 144
+         },
+         "extended": {
+          "present": 233,
+          "of": 256
+         }
+        },
+        "stem": 52,
+        "latin_stem": 57,
+        "latin_x": 394,
+        "latin_cap": 634,
+        "features": [
+         "c2sc",
+         "dnom",
+         "fina",
+         "hist",
+         "kern",
+         "liga",
+         "lnum",
+         "numr",
+         "onum",
+         "pnum",
+         "salt",
+         "sinf",
+         "smcp",
+         "sups",
+         "tnum"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "GFSNeohellenicBold.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/gfs-neohellenic/gfs-neohellenic-700.woff2",
+       "bytes": 10476,
+       "sha256": "93a755f869f1d4f0c3166dce2474f4e8a9803d4290fd75edd9821e27e5ef16d8",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 322
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 871,
+        "descender": -264,
+        "typo_ascender": 625,
+        "typo_descender": -223,
+        "use_typo_metrics": false,
+        "x_height": 388,
+        "cap_height": 623,
+        "glyphs": 879,
+        "codepoints": 876,
+        "heights": {
+         "x": {
+          "ymin": -6,
+          "ymax": 396,
+          "width": 405
+         },
+         "cap": {
+          "ymin": -14,
+          "ymax": 646,
+          "width": 621
+         },
+         "descender": {
+          "ymin": -183,
+          "ymax": 391,
+          "width": 386
+         }
+        },
+        "density": {
+         "polytonic": {
+          "per_mille": 205.6,
+          "missing": 1,
+          "glyphs": 37
+         },
+         "koine": {
+          "per_mille": 205.9,
+          "missing": 0,
+          "glyphs": 53
+         },
+         "latin": {
+          "per_mille": 191.4,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "greek": {
+          "present": 80,
+          "of": 144
+         },
+         "extended": {
+          "present": 233,
+          "of": 256
+         }
+        },
+        "stem": 96,
+        "latin_stem": 95,
+        "latin_x": 393,
+        "latin_cap": 635,
+        "features": [
+         "fina",
+         "hist",
+         "liga",
+         "salt",
+         "sinf",
+         "sups"
+        ]
+       }
+      }
+     ],
+     "version": "1.0"
+    },
+    {
+     "key": "didact-gothic",
+     "name": "Didact Gothic",
+     "credit": "Daniel Johnson, Cyreal",
+     "designer": "Daniel Johnson, Cyreal",
+     "origin": "Single-weight geometric sans with polytonic Greek.",
+     "lang": "grc",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/didactgothic",
+      "files": {
+       "DidactGothic-Regular.ttf": "b98f9e091b6337a86f4e0f69c94c31905e1e287782853f472e176b4e28d3f81f"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "DidactGothic-Regular.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/didact-gothic/didact-gothic-400.woff2",
+       "bytes": 8060,
+       "sha256": "b4de46fe49e9cb705498442a3c7d249d1683fd07ce9715b3190f019c4a899365",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 346
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1046,
+        "descender": -265,
+        "typo_ascender": 1046,
+        "typo_descender": -265,
+        "use_typo_metrics": true,
+        "x_height": 468,
+        "cap_height": 682,
+        "glyphs": 1272,
+        "codepoints": 1194,
+        "heights": {
+         "x": {
+          "ymin": -16,
+          "ymax": 484,
+          "width": 464
+         },
+         "cap": {
+          "ymin": -16,
+          "ymax": 697,
+          "width": 586
+         },
+         "descender": {
+          "ymin": -200,
+          "ymax": 484,
+          "width": 464
+         }
+        },
+        "density": {
+         "polytonic": {
+          "per_mille": 171.3,
+          "missing": 0,
+          "glyphs": 37
+         },
+         "koine": {
+          "per_mille": 170.8,
+          "missing": 0,
+          "glyphs": 53
+         },
+         "latin": {
+          "per_mille": 160.4,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "greek": {
+          "present": 78,
+          "of": 144
+         },
+         "extended": {
+          "present": 233,
+          "of": 256
+         }
+        },
+        "stem": 68,
+        "latin_stem": 68,
+        "latin_x": 484,
+        "latin_cap": 697,
+        "features": [
+         "aalt",
+         "case",
+         "ccmp",
+         "dlig",
+         "frac",
+         "kern",
+         "liga",
+         "lnum",
+         "locl",
+         "mark",
+         "mkmk",
+         "onum",
+         "ordn",
+         "salt",
+         "ss01",
+         "sups"
+        ]
+       }
+      }
+     ],
+     "version": "2.101"
+    },
+    {
+     "key": "noto-sans",
+     "name": "Noto Sans",
+     "credit": "Google / Noto",
+     "designer": "Google",
+     "origin": "Neutral humanist sans; full polytonic coverage.",
+     "lang": "grc",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/notosans",
+      "files": {
+       "NotoSans[wdth,wght].ttf": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "NotoSans[wdth,wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-sans/noto-sans-400.woff2",
+       "bytes": 14748,
+       "sha256": "118153f8ae0f16f163a97698504b51c7897b53af316aa1035df43bc421dd8d75",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 855
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1069,
+        "descender": -293,
+        "typo_ascender": 1069,
+        "typo_descender": -293,
+        "use_typo_metrics": true,
+        "x_height": 536,
+        "cap_height": 714,
+        "glyphs": 4515,
+        "codepoints": 3094,
+        "heights": {
+         "x": {
+          "ymin": -10,
+          "ymax": 546,
+          "width": 496
+         },
+         "cap": {
+          "ymin": -10,
+          "ymax": 725,
+          "width": 659
+         },
+         "descender": {
+          "ymin": -240,
+          "ymax": 546,
+          "width": 475
+         }
+        },
+        "density": {
+         "polytonic": {
+          "per_mille": 202.9,
+          "missing": 0,
+          "glyphs": 37
+         },
+         "koine": {
+          "per_mille": 201.5,
+          "missing": 0,
+          "glyphs": 53
+         },
+         "latin": {
+          "per_mille": 190.0,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "greek": {
+          "present": 121,
+          "of": 144
+         },
+         "extended": {
+          "present": 233,
+          "of": 256
+         }
+        },
+        "stem": 88,
+        "latin_stem": 88,
+        "latin_x": 546,
+        "latin_cap": 725,
+        "features": [
+         "aalt",
+         "abvm",
+         "abvs",
+         "akhn",
+         "blwf",
+         "blwm",
+         "blws",
+         "c2sc",
+         "case",
+         "ccmp",
+         "cjct",
+         "dist",
+         "dnom",
+         "frac",
+         "half",
+         "kern",
+         "liga",
+         "lnum",
+         "locl",
+         "mark",
+         "mkmk",
+         "nukt",
+         "numr",
+         "onum",
+         "ordn",
+         "pnum",
+         "pres",
+         "psts",
+         "rkrf",
+         "rphf",
+         "rtlm",
+         "salt",
+         "sinf",
+         "smcp",
+         "ss03",
+         "ss04",
+         "ss06",
+         "ss07",
+         "subs",
+         "sups",
+         "tnum",
+         "zero"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "NotoSans[wdth,wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-sans/noto-sans-700.woff2",
+       "bytes": 15116,
+       "sha256": "ea48b2448a372ce034937ba09beb0dbe940a8bb5561c980fdb091b401850f1b3",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 855
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1069,
+        "descender": -293,
+        "typo_ascender": 1069,
+        "typo_descender": -293,
+        "use_typo_metrics": true,
+        "x_height": 546,
+        "cap_height": 714,
+        "glyphs": 4515,
+        "codepoints": 3094,
+        "heights": {
+         "x": {
+          "ymin": -10,
+          "ymax": 556,
+          "width": 530
+         },
+         "cap": {
+          "ymin": -10,
+          "ymax": 725,
+          "width": 680
+         },
+         "descender": {
+          "ymin": -240,
+          "ymax": 556,
+          "width": 512
+         }
+        },
+        "density": {
+         "polytonic": {
+          "per_mille": 295.1,
+          "missing": 0,
+          "glyphs": 37
+         },
+         "koine": {
+          "per_mille": 299.9,
+          "missing": 0,
+          "glyphs": 53
+         },
+         "latin": {
+          "per_mille": 285.2,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "greek": {
+          "present": 121,
+          "of": 144
+         },
+         "extended": {
+          "present": 233,
+          "of": 256
+         }
+        },
+        "stem": 149,
+        "latin_stem": 151,
+        "latin_x": 556,
+        "latin_cap": 725,
+        "features": [
+         "aalt",
+         "abvm",
+         "abvs",
+         "akhn",
+         "blwf",
+         "blwm",
+         "blws",
+         "c2sc",
+         "case",
+         "ccmp",
+         "cjct",
+         "dist",
+         "dnom",
+         "frac",
+         "half",
+         "kern",
+         "liga",
+         "lnum",
+         "locl",
+         "mark",
+         "mkmk",
+         "nukt",
+         "numr",
+         "onum",
+         "ordn",
+         "pnum",
+         "pres",
+         "psts",
+         "rkrf",
+         "rphf",
+         "rtlm",
+         "salt",
+         "sinf",
+         "smcp",
+         "ss03",
+         "ss04",
+         "ss06",
+         "ss07",
+         "subs",
+         "sups",
+         "tnum",
+         "zero"
+        ]
+       }
+      }
+     ],
+     "version": "2.015"
+    }
+   ]
+  },
+  {
+   "key": "arabic",
+   "title": "Arabic",
+   "native": "العربية",
+   "dir": "rtl",
+   "lang": "ar",
+   "target": {
+    "alef": 700,
+    "loop": 460
+   },
+   "candidates": [
+    {
+     "key": "cairo",
+     "name": "Cairo",
+     "credit": "Mohamed Gaber, Accademia di Belle Arti di Urbino",
+     "designer": "Mohamed Gaber, Accademia di Belle Arti di Urbino",
+     "origin": "Kufi-based Arabic drawn as the companion to a geometric Latin (Titillium Web).",
+     "lang": "ar",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/cairo",
+      "files": {
+       "Cairo[slnt,wght].ttf": "667c987182391c91f4e57a2f455b1794fb5e3ee6ca4ef3383e86bb690fa9c964"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "Cairo[slnt,wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/cairo/cairo-400.woff2",
+       "bytes": 12652,
+       "sha256": "5e19b1f1cedc1ae2a7f7069b970c2d741b36ea41b836b258c79b14af8d0bfef7",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 392
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1303,
+        "descender": -571,
+        "typo_ascender": 1303,
+        "typo_descender": -571,
+        "use_typo_metrics": true,
+        "x_height": 500,
+        "cap_height": 700,
+        "glyphs": 1956,
+        "codepoints": 699,
+        "heights": {
+         "alef": {
+          "ymin": 0,
+          "ymax": 717,
+          "width": 77
+         },
+         "loop": {
+          "ymin": 0,
+          "ymax": 500,
+          "width": 504
+         },
+         "descender": {
+          "ymin": -221,
+          "ymax": 500,
+          "width": 239
+         }
+        },
+        "density": {
+         "vocalised": {
+          "per_mille": 203.9,
+          "missing": 0,
+          "glyphs": 133
+         },
+         "rasm": {
+          "per_mille": 189.8,
+          "missing": 0,
+          "glyphs": 83
+         },
+         "latin": {
+          "per_mille": 180.8,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "arabic": {
+          "present": 102,
+          "of": 256
+         },
+         "supplement": {
+          "present": 0,
+          "of": 48
+         },
+         "presentation_a": {
+          "present": 106,
+          "of": 688
+         },
+         "presentation_b": {
+          "present": 89,
+          "of": 144
+         }
+        },
+        "stem": 77,
+        "latin_stem": 77,
+        "latin_x": 510,
+        "latin_cap": 702,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "dnom",
+         "fina",
+         "frac",
+         "init",
+         "kern",
+         "locl",
+         "mark",
+         "medi",
+         "mkmk",
+         "numr",
+         "ordn",
+         "rlig",
+         "rvrn",
+         "sinf",
+         "subs",
+         "sups"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "Cairo[slnt,wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/cairo/cairo-700.woff2",
+       "bytes": 13368,
+       "sha256": "bf79fb5acb3814a19070352b7762a89e84a7e3636f06077cc8618b1222276685",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 392
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1303,
+        "descender": -571,
+        "typo_ascender": 1303,
+        "typo_descender": -571,
+        "use_typo_metrics": true,
+        "x_height": 500,
+        "cap_height": 700,
+        "glyphs": 1956,
+        "codepoints": 699,
+        "heights": {
+         "alef": {
+          "ymin": 0,
+          "ymax": 707,
+          "width": 133
+         },
+         "loop": {
+          "ymin": 0,
+          "ymax": 502,
+          "width": 547
+         },
+         "descender": {
+          "ymin": -248,
+          "ymax": 502,
+          "width": 277
+         }
+        },
+        "density": {
+         "vocalised": {
+          "per_mille": 307.2,
+          "missing": 0,
+          "glyphs": 133
+         },
+         "rasm": {
+          "per_mille": 289.3,
+          "missing": 0,
+          "glyphs": 83
+         },
+         "latin": {
+          "per_mille": 279.5,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "arabic": {
+          "present": 102,
+          "of": 256
+         },
+         "supplement": {
+          "present": 0,
+          "of": 48
+         },
+         "presentation_a": {
+          "present": 106,
+          "of": 688
+         },
+         "presentation_b": {
+          "present": 89,
+          "of": 144
+         }
+        },
+        "stem": 133,
+        "latin_stem": 133,
+        "latin_x": 513,
+        "latin_cap": 695,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "dnom",
+         "fina",
+         "frac",
+         "init",
+         "kern",
+         "locl",
+         "mark",
+         "medi",
+         "mkmk",
+         "numr",
+         "ordn",
+         "rlig",
+         "rvrn",
+         "sinf",
+         "subs",
+         "sups"
+        ]
+       }
+      }
+     ],
+     "version": "3.130;gftools[0.9.24]"
+    },
+    {
+     "key": "noto-kufi-arabic",
+     "name": "Noto Kufi Arabic",
+     "credit": "Google / Noto",
+     "designer": "Google",
+     "origin": "Kufi-style sans for interface text.",
+     "lang": "ar",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/notokufiarabic",
+      "files": {
+       "NotoKufiArabic[wght].ttf": "494f6b61469d7a02a2d63f0fc4930bb007388d8cfe551de5eb98354e100889f3"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "NotoKufiArabic[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-kufi-arabic/noto-kufi-arabic-400.woff2",
+       "bytes": 32876,
+       "sha256": "954bb3ebcde453183a5513a785edbd893bcbaa2445893521b320bf28726d35bd",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 1151
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1282,
+        "descender": -615,
+        "typo_ascender": 1282,
+        "typo_descender": -615,
+        "use_typo_metrics": true,
+        "x_height": 536,
+        "cap_height": 714,
+        "glyphs": 1706,
+        "codepoints": 1558,
+        "heights": {
+         "alef": {
+          "ymin": 0,
+          "ymax": 760,
+          "width": 89
+         },
+         "loop": {
+          "ymin": 0,
+          "ymax": 618,
+          "width": 656
+         },
+         "descender": {
+          "ymin": -240,
+          "ymax": 485,
+          "width": 280
+         }
+        },
+        "density": {
+         "vocalised": {
+          "per_mille": 209.8,
+          "missing": 0,
+          "glyphs": 163
+         },
+         "rasm": {
+          "per_mille": 188.4,
+          "missing": 0,
+          "glyphs": 110
+         },
+         "latin": {
+          "per_mille": 184.6,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "arabic": {
+          "present": 256,
+          "of": 256
+         },
+         "supplement": {
+          "present": 48,
+          "of": 48
+         },
+         "presentation_a": {
+          "present": 631,
+          "of": 688
+         },
+         "presentation_b": {
+          "present": 141,
+          "of": 144
+         }
+        },
+        "stem": 89,
+        "latin_stem": 88,
+        "latin_x": 546,
+        "latin_cap": 725,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "fina",
+         "init",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "medi",
+         "mkmk",
+         "ordn",
+         "pnum",
+         "rlig",
+         "rtlm",
+         "tnum"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "NotoKufiArabic[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-kufi-arabic/noto-kufi-arabic-700.woff2",
+       "bytes": 33040,
+       "sha256": "3d251e6df0a32375145b95ac15d71951247d12d08b84ae9b15e2eacf2ad7e5bc",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 1151
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1282,
+        "descender": -615,
+        "typo_ascender": 1282,
+        "typo_descender": -615,
+        "use_typo_metrics": true,
+        "x_height": 546,
+        "cap_height": 714,
+        "glyphs": 1706,
+        "codepoints": 1558,
+        "heights": {
+         "alef": {
+          "ymin": 0,
+          "ymax": 760,
+          "width": 149
+         },
+         "loop": {
+          "ymin": 0,
+          "ymax": 688,
+          "width": 783
+         },
+         "descender": {
+          "ymin": -240,
+          "ymax": 495,
+          "width": 393
+         }
+        },
+        "density": {
+         "vocalised": {
+          "per_mille": 293.3,
+          "missing": 0,
+          "glyphs": 163
+         },
+         "rasm": {
+          "per_mille": 272.7,
+          "missing": 0,
+          "glyphs": 110
+         },
+         "latin": {
+          "per_mille": 274.9,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "arabic": {
+          "present": 256,
+          "of": 256
+         },
+         "supplement": {
+          "present": 48,
+          "of": 48
+         },
+         "presentation_a": {
+          "present": 631,
+          "of": 688
+         },
+         "presentation_b": {
+          "present": 141,
+          "of": 144
+         }
+        },
+        "stem": 149,
+        "latin_stem": 149,
+        "latin_x": 556,
+        "latin_cap": 725,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "fina",
+         "init",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "medi",
+         "mkmk",
+         "ordn",
+         "pnum",
+         "rlig",
+         "rtlm",
+         "tnum"
+        ]
+       }
+      }
+     ],
+     "version": "2.109"
+    },
+    {
+     "key": "noto-naskh-arabic",
+     "name": "Noto Naskh Arabic",
+     "credit": "Google / Noto",
+     "designer": "Google",
+     "origin": "Naskh text face for extended reading.",
+     "lang": "ar",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/notonaskharabic",
+      "files": {
+       "NotoNaskhArabic[wght].ttf": "67b5a525a661b607971fbd3f96a81b89d3a768e74534fca84f18ac97e6fab72f"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "NotoNaskhArabic[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-naskh-arabic/noto-naskh-arabic-400.woff2",
+       "bytes": 40732,
+       "sha256": "e45fac378f29354777a61011205671a2da07078b1ae7425a9487cefd031cb081",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 1159
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1069,
+        "descender": -634,
+        "typo_ascender": 1069,
+        "typo_descender": -634,
+        "use_typo_metrics": true,
+        "x_height": 0,
+        "cap_height": 0,
+        "glyphs": 1719,
+        "codepoints": 1551,
+        "heights": {
+         "alef": {
+          "ymin": 0,
+          "ymax": 671,
+          "width": 102
+         },
+         "loop": {
+          "ymin": -18,
+          "ymax": 433,
+          "width": 563
+         },
+         "descender": {
+          "ymin": -204,
+          "ymax": 341,
+          "width": 355
+         }
+        },
+        "density": {
+         "vocalised": {
+          "per_mille": 157.4,
+          "missing": 0,
+          "glyphs": 162
+         },
+         "rasm": {
+          "per_mille": 141.7,
+          "missing": 0,
+          "glyphs": 110
+         },
+         "latin": {
+          "per_mille": 198.7,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "arabic": {
+          "present": 256,
+          "of": 256
+         },
+         "supplement": {
+          "present": 48,
+          "of": 48
+         },
+         "presentation_a": {
+          "present": 631,
+          "of": 688
+         },
+         "presentation_b": {
+          "present": 141,
+          "of": 144
+         }
+        },
+        "stem": 63,
+        "latin_stem": 94,
+        "latin_x": 546,
+        "latin_cap": 725,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "fina",
+         "init",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "medi",
+         "mkmk",
+         "ordn",
+         "pnum",
+         "rlig",
+         "rtlm",
+         "tnum"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "NotoNaskhArabic[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-naskh-arabic/noto-naskh-arabic-700.woff2",
+       "bytes": 41332,
+       "sha256": "bd6e7dc453927f776c8c1d1fa9437c77b94590f042143a3de0742a5c65211654",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 1159
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1069,
+        "descender": -634,
+        "typo_ascender": 1069,
+        "typo_descender": -634,
+        "use_typo_metrics": true,
+        "x_height": 0,
+        "cap_height": 0,
+        "glyphs": 1719,
+        "codepoints": 1551,
+        "heights": {
+         "alef": {
+          "ymin": 9,
+          "ymax": 680,
+          "width": 149
+         },
+         "loop": {
+          "ymin": -9,
+          "ymax": 479,
+          "width": 585
+         },
+         "descender": {
+          "ymin": -195,
+          "ymax": 383,
+          "width": 369
+         }
+        },
+        "density": {
+         "vocalised": {
+          "per_mille": 210.2,
+          "missing": 0,
+          "glyphs": 162
+         },
+         "rasm": {
+          "per_mille": 192.6,
+          "missing": 0,
+          "glyphs": 110
+         },
+         "latin": {
+          "per_mille": 273.9,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "arabic": {
+          "present": 256,
+          "of": 256
+         },
+         "supplement": {
+          "present": 48,
+          "of": 48
+         },
+         "presentation_a": {
+          "present": 631,
+          "of": 688
+         },
+         "presentation_b": {
+          "present": 141,
+          "of": 144
+         }
+        },
+        "stem": 92,
+        "latin_stem": 152,
+        "latin_x": 549,
+        "latin_cap": 725,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "fina",
+         "init",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "medi",
+         "mkmk",
+         "ordn",
+         "pnum",
+         "rlig",
+         "rtlm",
+         "tnum"
+        ]
+       }
+      }
+     ],
+     "version": "2.021"
+    },
+    {
+     "key": "ibm-plex-sans-arabic",
+     "name": "IBM Plex Sans Arabic",
+     "credit": "Mike Abbink, Bold Monday, Khajag Apelian, Wael Morcos",
+     "designer": "Mike Abbink, Bold Monday, Khajag Apelian, Wael Morcos",
+     "origin": "Arabic companion to IBM Plex.",
+     "lang": "ar",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/ibmplexsansarabic",
+      "files": {
+       "IBMPlexSansArabic-Regular.ttf": "6f611412270a132bbac838da9259d4c68569b4175f3b3b8fa3fa36a30b56dab9",
+       "IBMPlexSansArabic-Bold.ttf": "691e0c891a38637ae6bbdb69700f8042cb0724a137bee615068ffdb92244f61f"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "IBMPlexSansArabic-Regular.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/ibm-plex-sans-arabic/ibm-plex-sans-arabic-400.woff2",
+       "bytes": 28768,
+       "sha256": "c2dc9d2360e09dee5e7d86ebd39ed76793f7ad7f8f1d782004e0836fa27329c0",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 1232
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1085,
+        "descender": -415,
+        "typo_ascender": 1085,
+        "typo_descender": -415,
+        "use_typo_metrics": true,
+        "x_height": 516,
+        "cap_height": 698,
+        "glyphs": 1706,
+        "codepoints": 1032,
+        "heights": {
+         "alef": {
+          "ymin": 0,
+          "ymax": 740,
+          "width": 74
+         },
+         "loop": {
+          "ymin": -9,
+          "ymax": 411,
+          "width": 358
+         },
+         "descender": {
+          "ymin": -240,
+          "ymax": 289,
+          "width": 285
+         }
+        },
+        "density": {
+         "vocalised": {
+          "per_mille": 206.3,
+          "missing": 0,
+          "glyphs": 132
+         },
+         "rasm": {
+          "per_mille": 179.7,
+          "missing": 0,
+          "glyphs": 82
+         },
+         "latin": {
+          "per_mille": 180.1,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "arabic": {
+          "present": 252,
+          "of": 256
+         },
+         "supplement": {
+          "present": 48,
+          "of": 48
+         },
+         "presentation_a": {
+          "present": 196,
+          "of": 688
+         },
+         "presentation_b": {
+          "present": 140,
+          "of": 144
+         }
+        },
+        "stem": 74,
+        "latin_stem": 80,
+        "latin_x": 528,
+        "latin_cap": 710,
+        "features": [
+         "aalt",
+         "calt",
+         "ccmp",
+         "dlig",
+         "dnom",
+         "fina",
+         "frac",
+         "init",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "medi",
+         "mkmk",
+         "numr",
+         "ordn",
+         "rlig",
+         "salt",
+         "sinf",
+         "ss01",
+         "ss02",
+         "ss03",
+         "ss04",
+         "ss05",
+         "ss06",
+         "subs",
+         "sups",
+         "zero"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "IBMPlexSansArabic-Bold.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/ibm-plex-sans-arabic/ibm-plex-sans-arabic-700.woff2",
+       "bytes": 28968,
+       "sha256": "75970a4503460566e0037e67a998357fc0a92f55ad7e7031f34f4ba582c3ea50",
+       "subset": {
+        "kind": "script blocks",
+        "glyphs": 1227
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1085,
+        "descender": -415,
+        "typo_ascender": 1085,
+        "typo_descender": -415,
+        "use_typo_metrics": true,
+        "x_height": 525,
+        "cap_height": 698,
+        "glyphs": 1706,
+        "codepoints": 1032,
+        "heights": {
+         "alef": {
+          "ymin": 0,
+          "ymax": 740,
+          "width": 120
+         },
+         "loop": {
+          "ymin": -12,
+          "ymax": 454,
+          "width": 422
+         },
+         "descender": {
+          "ymin": -240,
+          "ymax": 323,
+          "width": 324
+         }
+        },
+        "density": {
+         "vocalised": {
+          "per_mille": 316.0,
+          "missing": 0,
+          "glyphs": 132
+         },
+         "rasm": {
+          "per_mille": 279.6,
+          "missing": 0,
+          "glyphs": 82
+         },
+         "latin": {
+          "per_mille": 290.8,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "arabic": {
+          "present": 252,
+          "of": 256
+         },
+         "supplement": {
+          "present": 48,
+          "of": 48
+         },
+         "presentation_a": {
+          "present": 196,
+          "of": 688
+         },
+         "presentation_b": {
+          "present": 140,
+          "of": 144
+         }
+        },
+        "stem": 120,
+        "latin_stem": 148,
+        "latin_x": 537,
+        "latin_cap": 710,
+        "features": [
+         "aalt",
+         "calt",
+         "ccmp",
+         "dlig",
+         "dnom",
+         "fina",
+         "frac",
+         "init",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "medi",
+         "mkmk",
+         "numr",
+         "ordn",
+         "rlig",
+         "salt",
+         "sinf",
+         "ss01",
+         "ss02",
+         "ss03",
+         "ss04",
+         "ss05",
+         "ss06",
+         "subs",
+         "sups",
+         "zero"
+        ]
+       }
+      }
+     ],
+     "version": "1.101"
+    }
+   ]
+  },
+  {
+   "key": "cuneiform",
+   "title": "Cuneiform",
+   "native": "𒀭",
+   "dir": "ltr",
+   "lang": "sux",
+   "target": {},
+   "candidates": [
+    {
+     "key": "noto-sans-cuneiform",
+     "name": "Noto Sans Cuneiform",
+     "credit": "Google / Noto",
+     "designer": "Google",
+     "origin": "Sumero-Akkadian signs, numbers and punctuation; already self-hosted on the main site.",
+     "lang": "sux",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/notosanscuneiform",
+      "files": {
+       "NotoSansCuneiform-Regular.ttf": "b4e0a892514fcb1beb081c8b652fb36689f77105491d1796c2c3f5a59b4524d2"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "NotoSansCuneiform-Regular.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/noto-sans-cuneiform/noto-sans-cuneiform-400.woff2",
+       "bytes": 4780,
+       "sha256": "ca57fbffc32387dc39cb4889f763b92a0b90d019e36eb25db7a24185208e2efa",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 22
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1596,
+        "descender": -690,
+        "typo_ascender": 1596,
+        "typo_descender": -690,
+        "use_typo_metrics": true,
+        "x_height": 536,
+        "cap_height": 714,
+        "glyphs": 1574,
+        "codepoints": 1569,
+        "heights": {
+         "sign": {
+          "ymin": -112,
+          "ymax": 736,
+          "width": 848
+         }
+        },
+        "density": {
+         "sumerian": {
+          "per_mille": 233.2,
+          "missing": 0,
+          "glyphs": 23
+         },
+         "latin": {
+          "per_mille": 190.0,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "cuneiform": {
+          "present": 922,
+          "of": 1024
+         },
+         "numbers": {
+          "present": 116,
+          "of": 128
+         },
+         "early_dynastic": {
+          "present": 196,
+          "of": 196
+         },
+         "ugaritic": {
+          "present": 0,
+          "of": 32
+         }
+        },
+        "stem": null,
+        "latin_stem": 88,
+        "latin_x": 546,
+        "latin_cap": 725,
+        "features": [
+         "ccmp",
+         "kern",
+         "locl",
+         "mark",
+         "mkmk",
+         "ordn"
+        ]
+       }
+      }
+     ],
+     "version": "2.001; ttfautohint (v1.8.4.7-5d5b)"
+    },
+    {
+     "key": "noto-sans-ugaritic",
+     "name": "Noto Sans Ugaritic",
+     "credit": "Google / Noto",
+     "designer": "Google",
+     "origin": "The thirty-letter Ugaritic abjad, encoded separately from Sumero-Akkadian cuneiform.",
+     "lang": "sux",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/notosansugaritic",
+      "files": {
+       "NotoSansUgaritic-Regular.ttf": "68d5a37ab45ba3ab091dda2aa392698963a90e2b399e131394892b8224da6491"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "NotoSansUgaritic-Regular.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/noto-sans-ugaritic/noto-sans-ugaritic-400.woff2",
+       "bytes": 2628,
+       "sha256": "f002e2f4c194b86a92f0f8c88c8da11c049955db3afd70fe26573b56014392c2",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 37
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 743,
+        "descender": -381,
+        "typo_ascender": 743,
+        "typo_descender": -381,
+        "use_typo_metrics": true,
+        "x_height": 536,
+        "cap_height": 723,
+        "glyphs": 371,
+        "codepoints": 366,
+        "heights": {
+         "sign": {
+          "ymin": 97,
+          "ymax": 330,
+          "width": 781
+         }
+        },
+        "density": {
+         "ugaritic": {
+          "per_mille": 145.1,
+          "missing": 0,
+          "glyphs": 23
+         },
+         "latin": {
+          "per_mille": 190.0,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "cuneiform": {
+          "present": 0,
+          "of": 1024
+         },
+         "numbers": {
+          "present": 0,
+          "of": 128
+         },
+         "early_dynastic": {
+          "present": 0,
+          "of": 196
+         },
+         "ugaritic": {
+          "present": 31,
+          "of": 32
+         }
+        },
+        "stem": null,
+        "latin_stem": 88,
+        "latin_x": 546,
+        "latin_cap": 725,
+        "features": [
+         "ccmp",
+         "kern",
+         "locl",
+         "mark",
+         "mkmk",
+         "ordn"
+        ]
+       }
+      }
+     ],
+     "version": "2.001; ttfautohint (v1.8.4.7-5d5b)"
+    }
+   ]
+  },
+  {
+   "key": "cjk",
+   "title": "Chinese, Japanese, Korean",
+   "native": "漢字 · かな · 한글",
+   "dir": "ltr",
+   "lang": "",
+   "target": {},
+   "candidates": [
+    {
+     "key": "noto-sans-jp",
+     "name": "Noto Sans JP",
+     "credit": "Google / Adobe (Source Han Sans)",
+     "designer": "Google",
+     "origin": "Pan-CJK sans, Japanese glyph forms.",
+     "lang": "ja",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/notosansjp",
+      "files": {
+       "NotoSansJP[wght].ttf": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "NotoSansJP[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-sans-jp/noto-sans-jp-400.woff2",
+       "bytes": 14944,
+       "sha256": "2aeb0b0fd062e6fd3f5ef7b5a03f173a8714333faf7ba5d63c69c6ff1fd40085",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 141
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1160,
+        "descender": -288,
+        "typo_ascender": 880,
+        "typo_descender": -120,
+        "use_typo_metrics": false,
+        "x_height": 543,
+        "cap_height": 733,
+        "glyphs": 17936,
+        "codepoints": 16732,
+        "heights": {
+         "body": {
+          "ymin": -80,
+          "ymax": 795,
+          "width": 828
+         }
+        },
+        "density": {
+         "ja": {
+          "per_mille": 195.2,
+          "missing": 0,
+          "glyphs": 19
+         },
+         "latin": {
+          "per_mille": 199.9,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 12747,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 93,
+          "of": 96
+         },
+         "katakana": {
+          "present": 96,
+          "of": 96
+         },
+         "hangul": {
+          "present": 0,
+          "of": 11172
+         }
+        },
+        "stem": 81,
+        "latin_stem": 92,
+        "latin_x": 557,
+        "latin_cap": 746,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "fwid",
+         "halt",
+         "hist",
+         "hwid",
+         "jp78",
+         "jp83",
+         "jp90",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "nlck",
+         "palt",
+         "pwid",
+         "ruby",
+         "vert",
+         "vhal",
+         "vkrn",
+         "vpal",
+         "vrt2"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "NotoSansJP[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-sans-jp/noto-sans-jp-700.woff2",
+       "bytes": 15372,
+       "sha256": "eb2bcd5fb99801bcfc0501de24ccd003896396c4d9b0696e60f7b4c18a3356a8",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 141
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1160,
+        "descender": -288,
+        "typo_ascender": 880,
+        "typo_descender": -120,
+        "use_typo_metrics": false,
+        "x_height": 543,
+        "cap_height": 733,
+        "glyphs": 17936,
+        "codepoints": 16732,
+        "heights": {
+         "body": {
+          "ymin": -88,
+          "ymax": 810,
+          "width": 845
+         }
+        },
+        "density": {
+         "ja": {
+          "per_mille": 315.3,
+          "missing": 0,
+          "glyphs": 19
+         },
+         "latin": {
+          "per_mille": 292.6,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 12747,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 93,
+          "of": 96
+         },
+         "katakana": {
+          "present": 96,
+          "of": 96
+         },
+         "hangul": {
+          "present": 0,
+          "of": 11172
+         }
+        },
+        "stem": 131,
+        "latin_stem": 147,
+        "latin_x": 574,
+        "latin_cap": 754,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "fwid",
+         "halt",
+         "hist",
+         "hwid",
+         "jp78",
+         "jp83",
+         "jp90",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "nlck",
+         "palt",
+         "pwid",
+         "ruby",
+         "vert",
+         "vhal",
+         "vkrn",
+         "vpal",
+         "vrt2"
+        ]
+       }
+      }
+     ],
+     "version": "2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+    },
+    {
+     "key": "zen-kaku-gothic-new",
+     "name": "Zen Kaku Gothic New",
+     "credit": "Yoshimichi Ohira",
+     "designer": "Yoshimichi Ohira",
+     "origin": "Current body face for the Japanese locale.",
+     "lang": "ja",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/zenkakugothicnew",
+      "files": {
+       "ZenKakuGothicNew-Regular.ttf": "b840cd07a67d89cacca44249ae49aa99ee7640eb5ce623be8d8983d6aabac801",
+       "ZenKakuGothicNew-Bold.ttf": "0081cedabc4921982fcd061f845a005664ac7fb642af2dd34b4007bc63ccd235"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "ZenKakuGothicNew-Regular.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/zen-kaku-gothic-new/zen-kaku-gothic-new-400.woff2",
+       "bytes": 8948,
+       "sha256": "c709c149077e16430704bfec30a4ba750e7ddff21850fdf3a6802813c99ed6f0",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 92
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1160,
+        "descender": -288,
+        "typo_ascender": 880,
+        "typo_descender": -120,
+        "use_typo_metrics": false,
+        "x_height": 479,
+        "cap_height": 700,
+        "glyphs": 7792,
+        "codepoints": 7737,
+        "heights": {
+         "body": {
+          "ymin": -39,
+          "ymax": 797,
+          "width": 814
+         }
+        },
+        "density": {
+         "ja": {
+          "per_mille": 137.6,
+          "missing": 0,
+          "glyphs": 19
+         },
+         "latin": {
+          "per_mille": 139.9,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 6682,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 88,
+          "of": 96
+         },
+         "katakana": {
+          "present": 94,
+          "of": 96
+         },
+         "hangul": {
+          "present": 0,
+          "of": 11172
+         }
+        },
+        "stem": 67,
+        "latin_stem": 61,
+        "latin_x": 491,
+        "latin_cap": 715,
+        "features": [
+         "aalt",
+         "case",
+         "ccmp",
+         "frac",
+         "fwid",
+         "hwid",
+         "kern",
+         "mark",
+         "mkmk",
+         "ordn",
+         "sups",
+         "vert",
+         "vkna",
+         "vrt2"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "ZenKakuGothicNew-Bold.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/zen-kaku-gothic-new/zen-kaku-gothic-new-700.woff2",
+       "bytes": 8960,
+       "sha256": "76c93ebb7672193fd00e0171511b6f67c7407f0eb3c5e7fd01a55802f3a48566",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 92
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1160,
+        "descender": -288,
+        "typo_ascender": 880,
+        "typo_descender": -120,
+        "use_typo_metrics": false,
+        "x_height": 481,
+        "cap_height": 700,
+        "glyphs": 7792,
+        "codepoints": 7737,
+        "heights": {
+         "body": {
+          "ymin": -49,
+          "ymax": 809,
+          "width": 846
+         }
+        },
+        "density": {
+         "ja": {
+          "per_mille": 249.5,
+          "missing": 0,
+          "glyphs": 19
+         },
+         "latin": {
+          "per_mille": 234.2,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 6682,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 88,
+          "of": 96
+         },
+         "katakana": {
+          "present": 94,
+          "of": 96
+         },
+         "hangul": {
+          "present": 0,
+          "of": 11172
+         }
+        },
+        "stem": 129,
+        "latin_stem": 113,
+        "latin_x": 493,
+        "latin_cap": 718,
+        "features": [
+         "aalt",
+         "case",
+         "ccmp",
+         "frac",
+         "fwid",
+         "hwid",
+         "kern",
+         "mark",
+         "mkmk",
+         "ordn",
+         "sups",
+         "vert",
+         "vkna",
+         "vrt2"
+        ]
+       }
+      }
+     ],
+     "version": "1.002"
+    },
+    {
+     "key": "m-plus-1p",
+     "name": "M PLUS 1p",
+     "credit": "Coji Morishita, M+ Fonts Project",
+     "designer": "Coji Morishita, M+ Fonts Project",
+     "origin": "Geometric gothic; current Japanese display face.",
+     "lang": "ja",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/mplus1p",
+      "files": {
+       "MPLUS1p-Regular.ttf": "2f294ad496432b1608f070d310e3aa2adcf1de4af429f4901df97ec4bd361ed1",
+       "MPLUS1p-Bold.ttf": "76eb077b0a31ca33ca40238e47da5a17e2786741607cec09678d7d2e5ab1afc1"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "MPLUS1p-Regular.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/m-plus-1p/m-plus-1p-400.woff2",
+       "bytes": 5800,
+       "sha256": "2a6cc6ea52404fe9629b394ee30d84e1c6f8c837f252051d7073858d431dd219",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 75
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1075,
+        "descender": -320,
+        "typo_ascender": 860,
+        "typo_descender": -140,
+        "use_typo_metrics": false,
+        "x_height": 0,
+        "cap_height": 0,
+        "glyphs": 8676,
+        "codepoints": 8331,
+        "heights": {
+         "body": {
+          "ymin": -87,
+          "ymax": 783,
+          "width": 846
+         }
+        },
+        "density": {
+         "ja": {
+          "per_mille": 186.9,
+          "missing": 0,
+          "glyphs": 19
+         },
+         "latin": {
+          "per_mille": 159.9,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 5082,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 93,
+          "of": 96
+         },
+         "katakana": {
+          "present": 96,
+          "of": 96
+         },
+         "hangul": {
+          "present": 0,
+          "of": 11172
+         }
+        },
+        "stem": 84,
+        "latin_stem": 77,
+        "latin_x": 530,
+        "latin_cap": 740,
+        "features": [
+         "ccmp",
+         "kern",
+         "liga",
+         "mark",
+         "mkmk",
+         "vert"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "MPLUS1p-Bold.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/m-plus-1p/m-plus-1p-700.woff2",
+       "bytes": 5836,
+       "sha256": "c3baa67aff504d5ef453235e1528d1a3bdf4e2683ffb0914a103551fc0c21679",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 75
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1075,
+        "descender": -320,
+        "typo_ascender": 860,
+        "typo_descender": -140,
+        "use_typo_metrics": false,
+        "x_height": 0,
+        "cap_height": 0,
+        "glyphs": 8676,
+        "codepoints": 8331,
+        "heights": {
+         "body": {
+          "ymin": -93,
+          "ymax": 797,
+          "width": 880
+         }
+        },
+        "density": {
+         "ja": {
+          "per_mille": 304.8,
+          "missing": 0,
+          "glyphs": 19
+         },
+         "latin": {
+          "per_mille": 248.3,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 5082,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 93,
+          "of": 96
+         },
+         "katakana": {
+          "present": 96,
+          "of": 96
+         },
+         "hangul": {
+          "present": 0,
+          "of": 11172
+         }
+        },
+        "stem": 144,
+        "latin_stem": 137,
+        "latin_x": 530,
+        "latin_cap": 740,
+        "features": [
+         "ccmp",
+         "kern",
+         "liga",
+         "mark",
+         "mkmk",
+         "vert"
+        ]
+       }
+      }
+     ],
+     "version": "1.062"
+    },
+    {
+     "key": "noto-sans-sc",
+     "name": "Noto Sans SC",
+     "credit": "Google / Adobe (Source Han Sans)",
+     "designer": "Google",
+     "origin": "Simplified Chinese glyph forms; current body face.",
+     "lang": "zh",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/notosanssc",
+      "files": {
+       "NotoSansSC[wght].ttf": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "NotoSansSC[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-sans-sc/noto-sans-sc-400.woff2",
+       "bytes": 8984,
+       "sha256": "b432b7f472d839fc5750c725abdc1ca11fa73b515c96832c2d44cb77c5549961",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 91
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1160,
+        "descender": -288,
+        "typo_ascender": 880,
+        "typo_descender": -120,
+        "use_typo_metrics": false,
+        "x_height": 543,
+        "cap_height": 733,
+        "glyphs": 31036,
+        "codepoints": 30890,
+        "heights": {
+         "body": {
+          "ymin": -80,
+          "ymax": 795,
+          "width": 828
+         }
+        },
+        "density": {
+         "zh": {
+          "per_mille": 263.8,
+          "missing": 0,
+          "glyphs": 16
+         },
+         "latin": {
+          "per_mille": 199.9,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 20976,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 93,
+          "of": 96
+         },
+         "katakana": {
+          "present": 96,
+          "of": 96
+         },
+         "hangul": {
+          "present": 0,
+          "of": 11172
+         }
+        },
+        "stem": 81,
+        "latin_stem": 92,
+        "latin_x": 557,
+        "latin_cap": 746,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "fwid",
+         "halt",
+         "hist",
+         "hwid",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "palt",
+         "pwid",
+         "ruby",
+         "vert",
+         "vhal",
+         "vkrn",
+         "vpal",
+         "vrt2"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "NotoSansSC[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-sans-sc/noto-sans-sc-700.woff2",
+       "bytes": 9100,
+       "sha256": "3622e9cf49576f962bdcba6e625b6bd4d3009d53fdcf4ce84e50df547636243c",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 91
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1160,
+        "descender": -288,
+        "typo_ascender": 880,
+        "typo_descender": -120,
+        "use_typo_metrics": false,
+        "x_height": 543,
+        "cap_height": 733,
+        "glyphs": 31036,
+        "codepoints": 30890,
+        "heights": {
+         "body": {
+          "ymin": -88,
+          "ymax": 810,
+          "width": 845
+         }
+        },
+        "density": {
+         "zh": {
+          "per_mille": 414.2,
+          "missing": 0,
+          "glyphs": 16
+         },
+         "latin": {
+          "per_mille": 292.6,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 20976,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 93,
+          "of": 96
+         },
+         "katakana": {
+          "present": 96,
+          "of": 96
+         },
+         "hangul": {
+          "present": 0,
+          "of": 11172
+         }
+        },
+        "stem": 131,
+        "latin_stem": 147,
+        "latin_x": 574,
+        "latin_cap": 754,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "fwid",
+         "halt",
+         "hist",
+         "hwid",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "palt",
+         "pwid",
+         "ruby",
+         "vert",
+         "vhal",
+         "vkrn",
+         "vpal",
+         "vrt2"
+        ]
+       }
+      }
+     ],
+     "version": "2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+    },
+    {
+     "key": "noto-sans-tc",
+     "name": "Noto Sans TC",
+     "credit": "Google / Adobe (Source Han Sans)",
+     "designer": "Google",
+     "origin": "Traditional Chinese glyph forms; current body face.",
+     "lang": "zh-Hant",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/notosanstc",
+      "files": {
+       "NotoSansTC[wght].ttf": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "NotoSansTC[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-sans-tc/noto-sans-tc-400.woff2",
+       "bytes": 10164,
+       "sha256": "fa1f255e2870b176ee878d5be4da7edba44699dc95a6f69b3a9f28b5085e1825",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 94
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1160,
+        "descender": -288,
+        "typo_ascender": 880,
+        "typo_descender": -120,
+        "use_typo_metrics": false,
+        "x_height": 543,
+        "cap_height": 733,
+        "glyphs": 20950,
+        "codepoints": 20745,
+        "heights": {
+         "body": {
+          "ymin": -80,
+          "ymax": 795,
+          "width": 828
+         }
+        },
+        "density": {
+         "zh-Hant": {
+          "per_mille": 311.0,
+          "missing": 0,
+          "glyphs": 16
+         },
+         "latin": {
+          "per_mille": 199.9,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 15383,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 93,
+          "of": 96
+         },
+         "katakana": {
+          "present": 96,
+          "of": 96
+         },
+         "hangul": {
+          "present": 0,
+          "of": 11172
+         }
+        },
+        "stem": 81,
+        "latin_stem": 92,
+        "latin_x": 557,
+        "latin_cap": 746,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "fwid",
+         "halt",
+         "hist",
+         "hwid",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "palt",
+         "pwid",
+         "ruby",
+         "vert",
+         "vhal",
+         "vkrn",
+         "vpal",
+         "vrt2"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "NotoSansTC[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-sans-tc/noto-sans-tc-700.woff2",
+       "bytes": 10360,
+       "sha256": "9d3d5024878e7a0efd7176d6c026e39034b33d149e6264c2c2aeec2a5077526a",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 94
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1160,
+        "descender": -288,
+        "typo_ascender": 880,
+        "typo_descender": -120,
+        "use_typo_metrics": false,
+        "x_height": 543,
+        "cap_height": 733,
+        "glyphs": 20950,
+        "codepoints": 20745,
+        "heights": {
+         "body": {
+          "ymin": -88,
+          "ymax": 810,
+          "width": 845
+         }
+        },
+        "density": {
+         "zh-Hant": {
+          "per_mille": 481.4,
+          "missing": 0,
+          "glyphs": 16
+         },
+         "latin": {
+          "per_mille": 292.6,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 15383,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 93,
+          "of": 96
+         },
+         "katakana": {
+          "present": 96,
+          "of": 96
+         },
+         "hangul": {
+          "present": 0,
+          "of": 11172
+         }
+        },
+        "stem": 131,
+        "latin_stem": 147,
+        "latin_x": 574,
+        "latin_cap": 754,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dlig",
+         "fwid",
+         "halt",
+         "hist",
+         "hwid",
+         "kern",
+         "liga",
+         "locl",
+         "mark",
+         "palt",
+         "pwid",
+         "ruby",
+         "vert",
+         "vhal",
+         "vkrn",
+         "vpal",
+         "vrt2"
+        ]
+       }
+      }
+     ],
+     "version": "2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+    },
+    {
+     "key": "noto-sans-kr",
+     "name": "Noto Sans KR",
+     "credit": "Google / Adobe (Source Han Sans)",
+     "designer": "Google",
+     "origin": "Korean glyph forms.",
+     "lang": "ko",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/notosanskr",
+      "files": {
+       "NotoSansKR[wght].ttf": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "NotoSansKR[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-sans-kr/noto-sans-kr-400.woff2",
+       "bytes": 7320,
+       "sha256": "4fb8b63cb981b6c22baff912ac84fd6fdbdbc055ccccbb3eb44c9ab2b2c15d8e",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 125
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1160,
+        "descender": -288,
+        "typo_ascender": 880,
+        "typo_descender": -120,
+        "use_typo_metrics": false,
+        "x_height": 543,
+        "cap_height": 733,
+        "glyphs": 24964,
+        "codepoints": 23174,
+        "heights": {
+         "body": {
+          "ymin": -58,
+          "ymax": 826,
+          "width": 833
+         }
+        },
+        "density": {
+         "ko": {
+          "per_mille": 234.6,
+          "missing": 0,
+          "glyphs": 22
+         },
+         "latin": {
+          "per_mille": 199.9,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 8138,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 93,
+          "of": 96
+         },
+         "katakana": {
+          "present": 96,
+          "of": 96
+         },
+         "hangul": {
+          "present": 11172,
+          "of": 11172
+         }
+        },
+        "stem": 83,
+        "latin_stem": 92,
+        "latin_x": 557,
+        "latin_cap": 746,
+        "features": [
+         "aalt",
+         "calt",
+         "ccmp",
+         "dlig",
+         "fwid",
+         "halt",
+         "hist",
+         "hwid",
+         "kern",
+         "liga",
+         "ljmo",
+         "locl",
+         "mark",
+         "palt",
+         "pwid",
+         "ruby",
+         "tjmo",
+         "vert",
+         "vhal",
+         "vjmo",
+         "vkrn",
+         "vpal",
+         "vrt2"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "NotoSansKR[wght].ttf",
+       "variable_source": true,
+       "file": "fonts/companions/noto-sans-kr/noto-sans-kr-700.woff2",
+       "bytes": 7520,
+       "sha256": "372a59ad2dded3d45a7fff944d454fa7f1a9ef217c9143f90ccdd3e055d7090c",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 125
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1160,
+        "descender": -288,
+        "typo_ascender": 880,
+        "typo_descender": -120,
+        "use_typo_metrics": false,
+        "x_height": 543,
+        "cap_height": 733,
+        "glyphs": 24964,
+        "codepoints": 23174,
+        "heights": {
+         "body": {
+          "ymin": -73,
+          "ymax": 838,
+          "width": 851
+         }
+        },
+        "density": {
+         "ko": {
+          "per_mille": 366.3,
+          "missing": 0,
+          "glyphs": 22
+         },
+         "latin": {
+          "per_mille": 292.6,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 8138,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 93,
+          "of": 96
+         },
+         "katakana": {
+          "present": 96,
+          "of": 96
+         },
+         "hangul": {
+          "present": 11172,
+          "of": 11172
+         }
+        },
+        "stem": 133,
+        "latin_stem": 147,
+        "latin_x": 574,
+        "latin_cap": 754,
+        "features": [
+         "aalt",
+         "calt",
+         "ccmp",
+         "dlig",
+         "fwid",
+         "halt",
+         "hist",
+         "hwid",
+         "kern",
+         "liga",
+         "ljmo",
+         "locl",
+         "mark",
+         "palt",
+         "pwid",
+         "ruby",
+         "tjmo",
+         "vert",
+         "vhal",
+         "vjmo",
+         "vkrn",
+         "vpal",
+         "vrt2"
+        ]
+       }
+      }
+     ],
+     "version": "2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+    },
+    {
+     "key": "pretendard",
+     "name": "Pretendard",
+     "credit": "Kil Hyung-jin",
+     "designer": "Kil Hyung-jin",
+     "origin": "Current body face for the Korean locale.",
+     "lang": "ko",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "orioncactus/pretendard",
+      "release": "v1.3.9",
+      "files": {
+       "Pretendard-Regular.woff2": "fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63",
+       "Pretendard-Bold.woff2": "4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "Pretendard-Regular.woff2",
+       "variable_source": false,
+       "file": "fonts/companions/pretendard/pretendard-400.woff2",
+       "bytes": 6664,
+       "sha256": "810bdf8e651a099ad003c4ac3ed241cc3c47464f08bdbf6709306d95dc1f9c80",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 101
+       },
+       "metrics": {
+        "upm": 2048,
+        "weight_class": 400,
+        "ascender": 952,
+        "descender": -241,
+        "typo_ascender": 952,
+        "typo_descender": -241,
+        "use_typo_metrics": true,
+        "x_height": 530,
+        "cap_height": 707,
+        "glyphs": 14716,
+        "codepoints": 14336,
+        "heights": {
+         "body": {
+          "ymin": -61,
+          "ymax": 788,
+          "width": 808
+         }
+        },
+        "density": {
+         "ko": {
+          "per_mille": 215.2,
+          "missing": 0,
+          "glyphs": 22
+         },
+         "latin": {
+          "per_mille": 194.0,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 0,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 90,
+          "of": 96
+         },
+         "katakana": {
+          "present": 94,
+          "of": 96
+         },
+         "hangul": {
+          "present": 11172,
+          "of": 11172
+         }
+        },
+        "stem": 77,
+        "latin_stem": 84,
+        "latin_x": 537,
+        "latin_cap": 717,
+        "features": [
+         "aalt",
+         "calt",
+         "case",
+         "ccmp",
+         "clig",
+         "cpsp",
+         "cv01",
+         "cv02",
+         "cv03",
+         "cv04",
+         "cv05",
+         "cv07",
+         "cv08",
+         "cv09",
+         "cv10",
+         "cv11",
+         "cv12",
+         "cv13",
+         "dlig",
+         "dnom",
+         "frac",
+         "fwid",
+         "kern",
+         "locl",
+         "mark",
+         "mkmk",
+         "numr",
+         "ordn",
+         "pnum",
+         "pwid",
+         "salt",
+         "sinf",
+         "ss01",
+         "ss02",
+         "ss03",
+         "ss05",
+         "ss06",
+         "ss07",
+         "ss08",
+         "ss10",
+         "ss11",
+         "ss12",
+         "ss13",
+         "ss14",
+         "ss15",
+         "ss16",
+         "subs",
+         "sups",
+         "tnum",
+         "zero"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "Pretendard-Bold.woff2",
+       "variable_source": false,
+       "file": "fonts/companions/pretendard/pretendard-700.woff2",
+       "bytes": 6748,
+       "sha256": "bc8ec102c1da5b693ed7229b0db280433858e7230ca9fdcd0a71c2c6faee58cb",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 101
+       },
+       "metrics": {
+        "upm": 2048,
+        "weight_class": 700,
+        "ascender": 952,
+        "descender": -241,
+        "typo_ascender": 952,
+        "typo_descender": -241,
+        "use_typo_metrics": true,
+        "x_height": 530,
+        "cap_height": 707,
+        "glyphs": 14716,
+        "codepoints": 14336,
+        "heights": {
+         "body": {
+          "ymin": -74,
+          "ymax": 800,
+          "width": 825
+         }
+        },
+        "density": {
+         "ko": {
+          "per_mille": 338.4,
+          "missing": 0,
+          "glyphs": 22
+         },
+         "latin": {
+          "per_mille": 286.4,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 0,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 90,
+          "of": 96
+         },
+         "katakana": {
+          "present": 94,
+          "of": 96
+         },
+         "hangul": {
+          "present": 11172,
+          "of": 11172
+         }
+        },
+        "stem": 124,
+        "latin_stem": 145,
+        "latin_x": 537,
+        "latin_cap": 717,
+        "features": [
+         "aalt",
+         "calt",
+         "case",
+         "ccmp",
+         "clig",
+         "cpsp",
+         "cv01",
+         "cv02",
+         "cv03",
+         "cv04",
+         "cv05",
+         "cv07",
+         "cv08",
+         "cv09",
+         "cv10",
+         "cv11",
+         "cv12",
+         "cv13",
+         "dlig",
+         "dnom",
+         "frac",
+         "fwid",
+         "kern",
+         "locl",
+         "mark",
+         "mkmk",
+         "numr",
+         "ordn",
+         "pnum",
+         "pwid",
+         "salt",
+         "sinf",
+         "ss01",
+         "ss02",
+         "ss03",
+         "ss05",
+         "ss06",
+         "ss07",
+         "ss08",
+         "ss10",
+         "ss11",
+         "ss12",
+         "ss13",
+         "ss14",
+         "ss15",
+         "ss16",
+         "subs",
+         "sups",
+         "tnum",
+         "zero"
+        ]
+       }
+      }
+     ],
+     "version": "1.309"
+    },
+    {
+     "key": "ibm-plex-sans-kr",
+     "name": "IBM Plex Sans KR",
+     "credit": "Mike Abbink, Bold Monday",
+     "designer": "Mike Abbink, Bold Monday",
+     "origin": "Current Korean display face.",
+     "lang": "ko",
+     "license": "SIL Open Font License 1.1",
+     "source": {
+      "repository": "google/fonts",
+      "commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+      "path": "ofl/ibmplexsanskr",
+      "files": {
+       "IBMPlexSansKR-Regular.ttf": "53750379270312368cf7641901f43a98dd892e3d9d5798cf25cdc245c85c71c0",
+       "IBMPlexSansKR-Bold.ttf": "9d82a8be5330f6d7b53121262867b402baca672eb69b852928f06d185d357f7d"
+      }
+     },
+     "faces": [
+      {
+       "weight": 400,
+       "source_file": "IBMPlexSansKR-Regular.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/ibm-plex-sans-kr/ibm-plex-sans-kr-400.woff2",
+       "bytes": 4884,
+       "sha256": "7e9e71abc76a61c14ca866f540c3b9979d608a769b0a7b89c28a41b55434a89e",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 85
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 400,
+        "ascender": 1085,
+        "descender": -415,
+        "typo_ascender": 880,
+        "typo_descender": -120,
+        "use_typo_metrics": false,
+        "x_height": 516,
+        "cap_height": 698,
+        "glyphs": 12240,
+        "codepoints": 12224,
+        "heights": {
+         "body": {
+          "ymin": -123,
+          "ymax": 769,
+          "width": 857
+         }
+        },
+        "density": {
+         "ko": {
+          "per_mille": 213.0,
+          "missing": 0,
+          "glyphs": 22
+         },
+         "latin": {
+          "per_mille": 180.1,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 0,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 0,
+          "of": 96
+         },
+         "katakana": {
+          "present": 0,
+          "of": 96
+         },
+         "hangul": {
+          "present": 11172,
+          "of": 11172
+         }
+        },
+        "stem": 77,
+        "latin_stem": 80,
+        "latin_x": 528,
+        "latin_cap": 710,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dnom",
+         "frac",
+         "kern",
+         "liga",
+         "nalt",
+         "numr",
+         "salt",
+         "sinf",
+         "ss01",
+         "ss02",
+         "ss03",
+         "ss04",
+         "subs",
+         "sups",
+         "zero"
+        ]
+       }
+      },
+      {
+       "weight": 700,
+       "source_file": "IBMPlexSansKR-Bold.ttf",
+       "variable_source": false,
+       "file": "fonts/companions/ibm-plex-sans-kr/ibm-plex-sans-kr-700.woff2",
+       "bytes": 4820,
+       "sha256": "600aa3b3d996edfdf158f3c904c419d5199896e43fa754ac2200d677511fd5b5",
+       "subset": {
+        "kind": "proof passages only",
+        "glyphs": 85
+       },
+       "metrics": {
+        "upm": 1000,
+        "weight_class": 700,
+        "ascender": 1085,
+        "descender": -415,
+        "typo_ascender": 880,
+        "typo_descender": -120,
+        "use_typo_metrics": false,
+        "x_height": 525,
+        "cap_height": 698,
+        "glyphs": 12240,
+        "codepoints": 12224,
+        "heights": {
+         "body": {
+          "ymin": -137,
+          "ymax": 779,
+          "width": 857
+         }
+        },
+        "density": {
+         "ko": {
+          "per_mille": 354.2,
+          "missing": 0,
+          "glyphs": 22
+         },
+         "latin": {
+          "per_mille": 290.8,
+          "missing": 0,
+          "glyphs": 54
+         }
+        },
+        "coverage": {
+         "han": {
+          "present": 0,
+          "of": 20992
+         },
+         "hiragana": {
+          "present": 0,
+          "of": 96
+         },
+         "katakana": {
+          "present": 0,
+          "of": 96
+         },
+         "hangul": {
+          "present": 11172,
+          "of": 11172
+         }
+        },
+        "stem": 135,
+        "latin_stem": 148,
+        "latin_x": 537,
+        "latin_cap": 710,
+        "features": [
+         "aalt",
+         "ccmp",
+         "dnom",
+         "frac",
+         "kern",
+         "liga",
+         "nalt",
+         "numr",
+         "salt",
+         "sinf",
+         "ss01",
+         "ss02",
+         "ss03",
+         "ss04",
+         "subs",
+         "sups",
+         "zero"
+        ]
+       }
+      }
+     ],
+     "version": "1.001"
+    }
+   ]
+  }
+ ]
+}

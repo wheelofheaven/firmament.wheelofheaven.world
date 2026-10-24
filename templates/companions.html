@@ -1,0 +1,173 @@
+{%- set data = load_data(path="static/assets/companions.json") -%}
+{%- set c = data.contract -%}
+{%- set b = c.baseline_from_top / 1000 -%}
+{%- set faces = 0 -%}{%- set families = 0 -%}
+{%- for s in data.scripts -%}{%- for cand in s.candidates -%}{%- set n = cand.faces | length -%}{%- set_global families = families + 1 -%}{%- set_global faces = faces + n -%}{%- endfor -%}{%- endfor -%}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f1f0e9">
+    <title>Companions — Firmament Sans</title>
+    <meta name="description" content="{{ page.description }}">
+    <link rel="canonical" href="{{ page.permalink | safe }}">
+    <meta property="og:title" content="Companions — Firmament Sans">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ page.permalink | safe }}">
+    <meta property="og:image" content="{{ get_url(path='assets/social.png') }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="{{ get_url(path='assets/favicon.svg') }}" type="image/svg+xml">
+    <link rel="preload" href="{{ get_url(path='fonts/FirmamentSans-Regular.woff2') }}" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="{{ get_url(path='main.css', cachebust=true) }}">
+    <style>
+{%- for s in data.scripts %}{% for cand in s.candidates %}{% for face in cand.faces %}
+@font-face{font-family:"C {{ cand.key }}";src:url("{{ get_url(path=face.file) }}") format("woff2");font-weight:{{ face.weight }};font-style:normal;font-display:block;{% if data.ranges[s.key] %}unicode-range:{{ data.ranges[s.key] }}{% endif %}}
+{%- endfor %}{% endfor %}{% endfor %}
+    </style>
+</head>
+<body class="companions">
+<a class="skip" href="#main">Skip to the proof</a>
+<header class="nav">
+    <a class="wordmark" href="{{ get_url(path='') }}" aria-label="Firmament Sans, home"><span class="monogram" aria-hidden="true">f<span>·</span></span><span>Firmament Sans</span></a>
+    <nav aria-label="Proof navigation"><a href="#contract">Contract</a><a href="#hebrew">Hebrew</a><a href="#greek">Greek</a><a href="#arabic">Arabic</a><a href="#cuneiform">Cuneiform</a><a href="#cjk">CJK</a><a href="#method">Method</a></nav>
+    <a class="nav__download" href="{{ get_url(path='') }}#story">Back to the specimen <span aria-hidden="true">↗</span></a>
+</header>
+<main id="main">
+<section class="hero wrap" id="top" aria-labelledby="hero-title">
+    <div class="eyebrow hero__meta"><span>Script study · Proof 01 · {{ data.generated }}</span><span>By Wheel of Heaven</span></div>
+    <h1 id="hero-title">Companions<span class="hero__period">.</span></h1>
+    <div class="hero__bottom"><p class="hero__statement">One contract.<br><em>Many hands.</em></p><div class="hero__intro"><p>Firmament 0.1 is a Latin and Cyrillic release. The corpus it serves is also Hebrew, Greek, Arabic, cuneiform, and Chinese, Japanese and Korean. This page sets open companion fonts beside Firmament at reading sizes and measures them against one contract. Nothing is merged or renamed: each face keeps its author and its licence.</p><a class="text-link" href="#contract">Read the contract <span aria-hidden="true">↓</span></a></div></div>
+    <div class="hero__facts"><span><strong>05</strong> Scripts</span><span><strong>{{ families }}</strong> Companion families</span><span><strong>{{ faces }}</strong> Measured faces</span><span><strong>0</strong> Outlines merged</span></div>
+</section>
+
+<section class="ribbon ribbon--scripts" aria-label="One line across six scripts"><div><span lang="en">Elohim</span> <span lang="he" dir="rtl" style="--cf:'C miriam-libre'">{{ data.words.hebrew }}</span> <span lang="grc" style="--cf:'C gfs-neohellenic'">{{ data.words.greek }}</span> <span lang="ar" dir="rtl" style="--cf:'C cairo'">{{ data.words.arabic }}</span> <span lang="sux" style="--cf:'C noto-sans-cuneiform'">{{ data.words.cuneiform }}</span> <span lang="ja" style="--cf:'C noto-sans-jp'">{{ data.words.ja }}</span></div><p class="eyebrow">One baseline. Six scripts. Each in its own hand.</p></section>
+
+<section class="section wrap contract" id="contract" aria-labelledby="contract-title">
+    <div class="section-head"><div class="eyebrow">01 / The contract</div><h2 id="contract-title">What every companion has to meet.</h2><p>Futura’s geometry does not travel between scripts; its measurements do. These numbers are read from the actual Firmament 0.1 outlines. A companion is harmonious when its own letters land on them.</p></div>
+    <div class="contract__layout">
+        <dl class="specs">
+            <div><dt>Units per em</dt><dd>{{ c.upm }}</dd></div>
+            <div><dt>x-height</dt><dd>{{ c.x_height }}</dd></div>
+            <div><dt>Cap height</dt><dd>{{ c.cap_height }}</dd></div>
+            <div><dt>Ascender / descender</dt><dd>{{ c.ascender }} / {{ c.descender }}</dd></div>
+            <div><dt>Stem, Regular</dt><dd>{{ c.stem["400"] }} ‰ <small>(Latin l)</small></dd></div>
+            <div><dt>Stem, Bold</dt><dd>{{ c.stem["700"] }} ‰</dd></div>
+            <div><dt>Colour, Regular</dt><dd>{{ c.density["400"] }} ‰ <small>(ink per em square)</small></dd></div>
+            <div><dt>Colour, Bold</dt><dd>{{ c.density["700"] }} ‰</dd></div>
+            <div><dt>Baseline from line top</dt><dd>{{ c.baseline_from_top }} ‰ <small>(line-height 1)</small></dd></div>
+        </dl>
+        <div>
+            <div class="rail rail--contract" style="--b:{{ b }}" aria-label="Firmament Regular against its own guides"><span class="rail__guide rail__guide--cap"><i>cap {{ c.cap_height }}</i></span><span class="rail__guide rail__guide--x"><i>x {{ c.x_height }}</i></span><span class="rail__guide rail__guide--base"><i>baseline</i></span><span class="rail__text">Ebhl</span></div>
+            <ul class="contract__rules">
+                <li><strong>Stem.</strong> Within a tenth of {{ c.stem["400"] }} ‰ at Regular and {{ c.stem["700"] }} ‰ at Bold, measured on the script’s plain vertical.</li>
+                <li><strong>Height.</strong> The script’s working letter height sits in the band between x-height and cap height; its ascenders and descenders stay inside Firmament’s line.</li>
+                <li><strong>Colour.</strong> Shaped text within a tenth of Firmament’s ink density at the same nominal size and weight.</li>
+                <li><strong>Marks and joins.</strong> Points, accents, breathings and cursive joins survive shaping without collisions.</li>
+                <li><strong>Its own forms.</strong> A companion keeps the shapes its readers expect. Harmony is a matter of weight, proportion and rhythm, not of borrowed geometry.</li>
+            </ul>
+        </div>
+    </div>
+    <p class="footnote">Measurement methods and provenance are listed <a href="#method">under the surface</a>. Round letters include overshoot, so an <em>o</em> reads about ten units above the x-height line.</p>
+</section>
+
+
+{%- for s in data.scripts %}
+{%- set note = page.extra.notes[s.key] %}
+<section class="section script{% if loop.index is odd %} script--alt{% endif %}" id="{{ s.key }}" aria-labelledby="{{ s.key }}-title"><div class="wrap">
+    <div class="section-head"><div class="eyebrow">{{ note.n }} / {{ s.title }} · <span lang="{{ s.lang }}">{{ s.native }}</span></div><h2 id="{{ s.key }}-title">{{ note.h2 }}</h2><p>{{ note.lead }}</p></div>
+
+    <div class="ctable-wrap"><table class="ctable">
+        <thead><tr><th scope="col">Companion</th><th scope="col">Weight</th><th scope="col">Stem ‰</th><th scope="col">Fit</th><th scope="col">Heights ‰</th><th scope="col">Colour ‰</th><th scope="col">Coverage</th><th scope="col">File</th></tr></thead>
+        <tbody>
+        {%- for cand in s.candidates %}{% for face in cand.faces %}
+        {%- set m = face.metrics %}
+        {%- if face.weight == 400 %}{% set ref = c.stem["400"] %}{% set dref = c.density["400"] %}{% else %}{% set ref = c.stem["700"] %}{% set dref = c.density["700"] %}{% endif %}
+        <tr>
+            <th scope="row">{% if loop.first %}<a href="#proof-{{ cand.key }}">{{ cand.name }}</a><small>{{ cand.designer }}</small>{% endif %}</th>
+            <td>{{ face.weight }}</td>
+            <td>{% if m.stem %}{{ m.stem }}{% else %}–{% endif %}</td>
+            <td>{% if m.stem %}{% set r = m.stem / ref %}<span class="fit{% if r > 1.1 or r < 0.9 %} fit--off{% endif %}">{{ r | round(precision=2) }}×</span>{% else %}–{% endif %}</td>
+            <td>{% for k, v in m.heights %}<span>{{ k }} {% if k == "descender" %}{{ v.ymin }}{% elif k == "body" or k == "sign" %}{{ v.ymin }}…{{ v.ymax }}{% else %}{{ v.ymax }}{% endif %}</span>{% endfor %}</td>
+            <td>{% for k, v in m.density %}{% if k != "latin" %}<span>{{ k }} {{ v.per_mille }}{% if v.missing > 0 %} <b class="fit--off">({{ v.missing }} missing)</b>{% endif %}</span>{% endif %}{% endfor %}</td>
+            <td>{% for k, v in m.coverage %}{% if v.present > 0 %}<span>{{ k }} {{ v.present }}/{{ v.of }}</span>{% endif %}{% endfor %}</td>
+            <td>{% set kb = face.bytes / 1024 %}<span>{{ kb | round }} KB</span><span>{{ face.subset.kind }}</span></td>
+        </tr>
+        {%- endfor %}{% endfor %}
+        </tbody>
+    </table></div>
+    <p class="footnote">Fit is the stem divided by the contract stem at the same nominal weight; anything outside 0.9–1.1× is marked. Heights are outline bounds in thousandths of an em{% if s.target.letter %}; the Hebrew working height is compared with {{ s.target.letter }}, the {{ s.target.note }}{% endif %}.</p>
+
+    {%- for cand in s.candidates %}
+    {%- set lang = cand.lang %}
+    <article class="proof" id="proof-{{ cand.key }}" style="--cf:'C {{ cand.key }}'">
+        <header class="proof__head"><div><h3>{{ cand.name }}</h3><p>{{ cand.origin }}</p></div><dl><div><dt>Design</dt><dd>{{ cand.designer }}</dd></div><div><dt>Version</dt><dd>{{ cand.version }}</dd></div><div><dt>Licence</dt><dd>{{ cand.license }}</dd></div><div><dt>Source</dt><dd>{% if cand.source.commit %}<a href="https://github.com/{{ cand.source.repository }}/tree/{{ cand.source.commit }}/{{ cand.source.path }}">{{ cand.source.repository }} @ {{ cand.source.commit | truncate(length=10, end="") }}</a>{% else %}<a href="https://github.com/{{ cand.source.repository }}/releases/tag/{{ cand.source.release }}">{{ cand.source.repository }} {{ cand.source.release }}</a>{% endif %}</dd></div></dl></header>
+        {%- if s.key != "cjk" %}
+        <div class="rail" style="--b:{{ b }}" aria-label="{{ cand.name }} against the Firmament guides"><span class="rail__guide rail__guide--cap"></span><span class="rail__guide rail__guide--x"></span><span class="rail__guide rail__guide--base"></span><span class="rail__text">Eb <span class="rail__script" lang="{{ lang }}" dir="{{ s.dir }}">{% if cand.key == "noto-sans-ugaritic" %}{{ data.words.ugaritic }}{% else %}{{ data.words[s.key] }}{% endif %}</span> hl</span></div>
+        {%- else %}
+        <div class="rail" style="--b:{{ b }}" aria-label="{{ cand.name }} against the Firmament guides"><span class="rail__guide rail__guide--cap"></span><span class="rail__guide rail__guide--x"></span><span class="rail__guide rail__guide--base"></span><span class="rail__text">Eb <span class="rail__script" lang="{{ lang }}">{{ data.words[lang] }}</span> hl</span></div>
+        {%- endif %}
+        <div class="proof__rows">
+            {%- if s.key == "hebrew" %}
+            <div class="proof__row"><span class="eyebrow">32 px · inline citation</span><p class="proof__mixed" lang="en">{{ data.passages.inline.elohim }}</p></div>
+            <div class="proof__row"><span class="eyebrow">19 px · pointed text · {{ data.passages.genesis.0.ref }}</span><p class="proof__read proof__read--19" lang="he" dir="rtl">{{ data.passages.genesis.0.he }} <strong>{{ data.passages.genesis.1.he }}</strong></p></div>
+            <div class="proof__row"><span class="eyebrow">16 px · running prose · wiki/elohim</span><p class="proof__read proof__read--16" lang="he" dir="rtl">{{ data.passages.hebrew_prose }} <strong>{{ data.passages.hebrew_prose }}</strong></p></div>
+            <div class="proof__row"><span class="eyebrow">15 px · interface labels</span><p class="proof__labels" lang="he" dir="rtl">{% for l in data.passages.labels.he %}<span>{{ l }}</span>{% endfor %}</p></div>
+            {%- elif s.key == "greek" %}
+            <div class="proof__row"><span class="eyebrow">32 px · inline citation</span><p class="proof__mixed" lang="en">{{ data.passages.inline.apocalypse }}</p></div>
+            <div class="proof__row"><span class="eyebrow">19 px · polytonic · {{ data.passages.theogony.0.ref }}–2</span><p class="proof__read proof__read--19" lang="grc">{{ data.passages.theogony.0.grc }} <strong>{{ data.passages.theogony.1.grc }}</strong></p></div>
+            <div class="proof__row"><span class="eyebrow">16 px · Koine · {{ data.passages.matthew.ref }}</span><p class="proof__read proof__read--16" lang="grc">{{ data.passages.matthew.grc }} <span lang="en">{{ data.passages.matthew.en }}</span></p></div>
+            {%- elif s.key == "arabic" %}
+            <div class="proof__row"><span class="eyebrow">32 px · inline citation</span><p class="proof__mixed" lang="en">{{ note.mixed }} · {{ data.passages.hidden_words.en }}</p></div>
+            <div class="proof__row"><span class="eyebrow">19 px · vocalised · {{ data.passages.hidden_words.ref }}</span><p class="proof__read proof__read--19" lang="ar" dir="rtl">{{ data.passages.hidden_words.ar }}</p></div>
+            <div class="proof__row"><span class="eyebrow">16 px · rasm + bold</span><p class="proof__read proof__read--16" lang="ar" dir="rtl">{{ data.passages.hidden_words.rasm }} <strong>{{ data.passages.hidden_words.rasm }}</strong></p></div>
+            {%- elif s.key == "cuneiform" %}
+            {%- if cand.key == "noto-sans-cuneiform" %}
+            <div class="proof__row"><span class="eyebrow">32 px · signs with readings</span><p class="proof__mixed" lang="sux">{{ note.mixed }}</p></div>
+            <div class="proof__row"><span class="eyebrow">21 px · interlinear · {{ data.passages.enki.ref }}</span><p class="proof__read proof__read--21" lang="sux">{{ data.passages.enki.cun }}</p><p class="proof__translit">{{ data.passages.enki.translit }}</p><p class="proof__translit" lang="en">{{ data.passages.enki.en }}</p></div>
+            {%- else %}
+            <div class="proof__row"><span class="eyebrow">32 px · the abjad</span><p class="proof__mixed" lang="uga">{{ data.passages.ugaritic_alphabet }}</p></div>
+            <div class="proof__row"><span class="eyebrow">21 px · interlinear · {{ data.passages.baal.ref }}</span><p class="proof__read proof__read--21" lang="uga">{{ data.passages.baal.uga }}</p><p class="proof__translit">{{ data.passages.baal.translit }}</p><p class="proof__translit" lang="en">{{ data.passages.baal.en }}</p></div>
+            {%- endif %}
+            {%- else %}
+            <div class="proof__row"><span class="eyebrow">32 px · mixed line</span><p class="proof__mixed" lang="en">Elohim · <span lang="{{ lang }}">{{ data.words[lang] }}</span> · {{ data.passages.genesis.0.en }}</p></div>
+            <div class="proof__row"><span class="eyebrow">19 px · {{ data.passages.genesis.0.ref }}</span><p class="proof__read proof__read--19" lang="{{ lang }}">{{ data.passages.genesis.0[lang] }} <strong>{{ data.passages.genesis.1[lang] }}</strong></p></div>
+            <div class="proof__row"><span class="eyebrow">15 px · interface labels</span><p class="proof__labels" lang="{{ lang }}">{% for l in data.passages.labels[lang] %}<span>{{ l }}</span>{% endfor %}</p></div>
+            {%- endif %}
+        </div>
+    </article>
+    {%- endfor %}
+</div></section>
+{%- endfor %}
+
+<section class="section story" id="decision" aria-labelledby="decision-title"><div class="wrap">
+    <div class="story__layout">
+        <div><div class="eyebrow">07 / What this changes</div><h2 id="decision-title">Three layers.<br>One site.</h2><p class="lede">The main site already reads in three typographic layers: body, display, citation. Companions join the layer they belong to.</p></div>
+        <div class="story__body">
+            <p>Hebrew and Greek <em>citations</em> inside Latin prose stay in the citation layer, beside IBM Plex Serif: Frank Ruhl Libre for Hebrew, GFS Didot for Greek. That is a scholarly register, and it is right.</p>
+            <p>Running Hebrew prose, headings and interface text are a different job. The Hebrew locale is the only locale on the site with no body and display layering at all; everything renders in the citation serif, or falls to a system font where the display stack has no Hebrew. The recommendation to the main site is to give that locale a monolinear sans companion for its body and display layers and leave the citation layer untouched. Miriam Libre matches the contract on stem and colour and shares its reviver’s source with Frank Ruhl Libre: both descend from Raphael Frank’s Hebrew of the early twentieth century.</p>
+            <p>Arabic has no web font on the main site at all today. Cairo meets the stem and alef height of the contract and is the proposed interface companion; Naskh remains the candidate for extended reading, subject to review by native readers. Cuneiform and Ugaritic keep their Noto faces. CJK keeps its regional pairings, now written down with their measurements.</p>
+            <p>None of this replaces the plan to draw Firmament Greek, and later Hebrew and Arabic, as original designs. It gives readers something reliable in the meantime, and it gives the designers a measured target.</p>
+            <div class="story__credits"><div><span>Status</span><span>Proposed for the main site · {{ data.generated }}</span></div><div><span>Script study</span><a href="https://github.com/wheelofheaven/firmament.wheelofheaven.world/blob/main/docs/script-expansion.md">docs/script-expansion.md ↗</a></div><div><span>Main-site typography</span><a href="https://docs.wheelofheaven.world/components/tokens/typography/">docs.wheelofheaven.world ↗</a></div></div>
+        </div>
+    </div>
+</div></section>
+
+<section class="section wrap technical" id="method" aria-labelledby="method-title"><div class="section-head"><div class="eyebrow">08 / Under the surface</div><h2 id="method-title">How the numbers were made.</h2></div><div class="technical__layout"><dl class="specs specs--method">
+    <div><dt>Stem</dt><dd>{{ data.method.stem }}</dd></div>
+    <div><dt>Colour</dt><dd>{{ data.method.density }}</dd></div>
+    <div><dt>Heights</dt><dd>{{ data.method.heights }}</dd></div>
+    <div><dt>Faces</dt><dd>{{ data.method.faces }}</dd></div>
+    <div><dt>Subsets</dt><dd>{{ data.method.subsets }}</dd></div>
+    <div><dt>Firmament files</dt><dd>{{ data.firmament["400"].file }} · {{ data.firmament["400"].sha256 | truncate(length=16, end="…") }}<br>{{ data.firmament["700"].file }} · {{ data.firmament["700"].sha256 | truncate(length=16, end="…") }}</dd></div>
+</dl><div class="technical__notes">
+    <details open><summary>Are these fonts part of Firmament?</summary><p>No. They are independent open fonts, kept under their own names and licences, served here only to be looked at next to Firmament. The script-block subsets of the Hebrew, Greek and Arabic faces are complete for their scripts; the cuneiform and CJK files contain the proof passages only and must not be reused as production fonts.</p></details>
+    <details><summary>Why measure stems and colour rather than compare by eye alone?</summary><p>Eyes decide; numbers make the decision repeatable. A stem that is ten per cent heavier than Firmament’s reads as a different weight in a mixed line, and a density gap of the same size reads as a different grey. The table lets a reviewer see where each candidate stands before the proofs are examined at size.</p></details>
+    <details><summary>How is this reproduced?</summary><p>Run <code>python scripts/companions.py</code> in the showcase repository with fontTools, Brotli, uharfbuzz and Pillow installed. The script downloads each family from the pinned <code>google/fonts</code> commit (or the pinned Pretendard release), records SHA-256 checksums of the sources and the served subsets, and regenerates both the fonts and the data behind this page.</p><a class="text-link" href="https://github.com/wheelofheaven/firmament.wheelofheaven.world/blob/main/scripts/companions.py">Read the pipeline ↗</a></details>
+    <details><summary>What is still missing?</summary><p>Native-reader review of every proof at reading size; a Greek candidate that meets the contract, which argues for drawing Firmament Greek; an Arabic reading proof on a full chapter of the Hidden Words; and a vertical CJK proof, which the main site does not yet set.</p></details>
+</div></div></section>
+</main>
+<footer class="footer wrap"><a class="wordmark" href="{{ get_url(path='') }}"><span class="monogram" aria-hidden="true">f<span>·</span></span><span>Firmament Sans</span></a><p>A type project by <a href="https://www.wheelofheaven.world/">Wheel of Heaven</a>.<br>Companion fonts remain the work of their designers under the SIL Open Font License.</p><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>

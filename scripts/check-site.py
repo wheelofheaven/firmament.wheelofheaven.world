@@ -22,14 +22,33 @@ class Page(HTMLParser):
         if tag == 'img': assert a.get('alt'), 'Image missing alt text'
 page = Page(); page.feed((PUBLIC/'index.html').read_text())
 assert len(page.headings) == 1
-for link in page.links:
-    url = urlparse(link)
-    if url.netloc and url.netloc != 'firmament.wheelofheaven.world': continue
-    if url.scheme and url.scheme not in ('http', 'https'): continue
-    if url.fragment: assert url.fragment in page.ids, ('missing anchor', link)
-    path = PUBLIC/unquote(url.path).lstrip('/')
-    if not url.path or url.path.endswith('/'): path = path/'index.html'
-    assert path.is_file(), ('missing resource', link)
+companions = Page(); companions.feed((PUBLIC/'companions/index.html').read_text())
+assert len(companions.headings) == 1
+IDS = {'/': page.ids, '/companions/': companions.ids}
+def check_links(page, here):
+    for link in page.links:
+        url = urlparse(link)
+        if url.netloc and url.netloc != 'firmament.wheelofheaven.world': continue
+        if url.scheme and url.scheme not in ('http', 'https'): continue
+        target = url.path or ('/' if url.netloc else here)
+        if url.fragment: assert url.fragment in IDS.get(target, set()), ('missing anchor', link)
+        path = PUBLIC/unquote(url.path).lstrip('/')
+        if not url.path or url.path.endswith('/'): path = path/'index.html'
+        assert path.is_file(), ('missing resource', link)
+check_links(companions, '/companions/')
+data = json.loads((PUBLIC/'assets/companions.json').read_text())
+faces = [face for script in data['scripts'] for cand in script['candidates'] for face in cand['faces']]
+assert len(data['scripts']) == 5 and faces, 'companion data incomplete'
+for face in faces:
+    path = PUBLIC/face['file']
+    assert path.is_file(), ('missing companion font', face['file'])
+    assert hashlib.sha256(path.read_bytes()).hexdigest() == face['sha256'], ('companion checksum', face['file'])
+    samples = face['metrics']['density']
+    assert samples, ('unmeasured face', face['file'])
+    # Every face must shape at least one proof sample completely; samples with
+    # missing glyphs (e.g. cantillation in a font without it) are flagged on the page.
+    assert any(sample['missing'] == 0 for key, sample in samples.items() if key != 'latin'), ('no complete proof sample', face['file'])
+check_links(page, '/')
 glyphs = json.loads((PUBLIC/'assets/glyphs.json').read_text())
 assert len({g['code'] for g in glyphs}) == len(glyphs)
 assert sum(g['added'] for g in glyphs) == 60
@@ -40,4 +59,4 @@ with ZipFile(PUBLIC/'downloads/FirmamentSans-0.1.zip') as archive:
     for name in archive.namelist():
         basename = Path(name).name
         assert hashlib.sha256(archive.read(name)).hexdigest() == release['sha256'][basename]
-print(f'Passed: all local resources/anchors, {len(glyphs)} visible characters, 60 additions, and 10 licensed archive files.')
+print(f'Passed: all local resources/anchors, {len(glyphs)} visible characters, 60 additions, 10 licensed archive files, and {len(faces)} companion faces.')

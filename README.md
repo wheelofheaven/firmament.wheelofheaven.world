@@ -32,10 +32,19 @@ It brings the clarity of 1920s German design into a typeface for shared knowledg
 - A searchable inventory generated from the actual font, including all 60 new scholarly characters.
 - Letterform anatomy, Jost comparisons, display and reading specimens, and multilingual proofs.
 - A design story connecting Bauhaus, New Typography, and New Objectivity with the transmission of knowledge.
+- A second page, `/companions/`, that measures open Hebrew, Greek, Arabic, cuneiform and CJK fonts against Firmament's metric contract.
 - TTF and WOFF2 downloads, the Open Font License, source links, and release limitations.
 
 Firmament 0.1 contains Latin and Cyrillic coverage plus scholarly Latin additions.
 Greek, Hebrew, Arabic, cuneiform, and CJK are evaluated in the [script study](docs/script-expansion.md); they are not newly included in this release.
+
+## Companions
+
+[`/companions/`](https://firmament.wheelofheaven.world/companions/) is the script study's first proof: 24 open companion families (45 faces) for Hebrew, Greek, Arabic, cuneiform and CJK, measured against Firmament's metric contract and set beside it at reading sizes.
+`scripts/companions.py` downloads each family from a pinned `google/fonts` commit (or the pinned Pretendard release), instances variable fonts at 400 and 700, subsets them (whole script blocks for Hebrew, Greek and Arabic; proof passages only for cuneiform and CJK), measures stems, letter heights, shaped ink density and coverage, and writes `static/fonts/companions/` plus `static/assets/companions.json`.
+The page is rendered from that JSON and from the editorial copy in `content/companions.md`; `mise run check` verifies every served companion file against its recorded checksum.
+Nothing is merged or renamed: each companion keeps its family name, author and OFL licence.
+To regenerate, install uharfbuzz and Pillow alongside FontTools and Brotli and run `python scripts/companions.py` (downloads land in the gitignored `.companions-cache/`).
 
 ## Development
 

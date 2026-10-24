@@ -5,3 +5,4 @@ node_modules/
 .openai/*.tar*
 public/
 .wrangler/
+.companions-cache/
